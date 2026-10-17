@@ -12,7 +12,7 @@ SITIO = 'https://pdf.cluzter.dev'
 ACTUALIZADO = '17 de octubre de 2026'
 WHATSAPP = 'https://wa.me/447400754038'
 CORREO = 'ventas@cluzter.dev'
-REPO = 'https://github.com/gianmarcozkret/pdf-cluzter'
+REPO = 'https://github.com/gianmarcozkret/pdf-cluzter/tree/cluzter'
 ORIGINAL = 'https://github.com/alam00000/bentopdf'
 
 CABECERA = '''<!doctype html>

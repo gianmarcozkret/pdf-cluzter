@@ -25,7 +25,7 @@ export DISABLE_GITHUB_STARS=true     # sin llamadas a api.github.com
 export DISABLE_TOOLS=timestamp-pdf
 export COMPRESSION_MODE=g            # archivos .gz junto a los originales; nginx usa gzip_static
 export SEO_SOCIAL_IMAGE=/images/og-cluzter-pdf.png
-export ORG_SAME_AS=https://cluzter.dev,https://github.com/gianmarcozkret/pdf-cluzter
+export ORG_SAME_AS=https://cluzter.dev,https://github.com/gianmarcozkret/pdf-cluzter/tree/cluzter
 export NODE_OPTIONS="--max-old-space-size=3072 --dns-result-order=ipv4first"
 
 nice -n 10 npm run build
