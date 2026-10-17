@@ -21,6 +21,8 @@ export VITE_BRAND_LOGO=images/cluzter-logo.png
 export VITE_FOOTER_TEXT="© 2026 Cluzter"
 export VITE_CORS_PROXY_URL=          # firma digital: sin proxy de terceros
 export DISABLE_GITHUB_STARS=true     # sin llamadas a api.github.com
+# Sello de tiempo: necesita un proxy hacia las autoridades de sellado (pendiente, fase 2); sin él fallaría
+export DISABLE_TOOLS=timestamp-pdf
 export COMPRESSION_MODE=g            # archivos .gz junto a los originales; nginx usa gzip_static
 export SEO_SOCIAL_IMAGE=/images/og-cluzter-pdf.png
 export ORG_SAME_AS=https://cluzter.dev,https://github.com/gianmarcozkret/pdf-cluzter
