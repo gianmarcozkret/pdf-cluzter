@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="Tachar datos personales en PDF (DNI, RUC, celular) gratis | Cluzter PDF"
+    />
+    <meta
+      name="description"
+      content="Oculta de verdad números de DNI, RUC, celulares, correos y cualquier palabra en tus PDF antes de compartirlos. Gratis y sin subir tus archivos: todo ocurre en tu navegador."
+    />
+    <meta
+      name="keywords"
+      content="tachar datos pdf, ocultar dni en pdf, censurar pdf, borrar datos personales pdf, redactar pdf, tachar texto pdf"
+    />
+    <meta name="author" content="Cluzter" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://pdf.cluzter.dev/tachar-datos-pdf" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://pdf.cluzter.dev/tachar-datos-pdf"
+    />
+    <meta
+      property="og:title"
+      content="Tachar datos personales en PDF (DNI, RUC, celular) gratis | Cluzter PDF"
+    />
+    <meta
+      property="og:description"
+      content="Oculta de verdad números de DNI, RUC, celulares, correos y cualquier palabra en tus PDF antes de compartirlos. Gratis y sin subir tus archivos: todo ocurre en tu navegador."
+    />
+    <meta
+      property="og:image"
+      content="https://pdf.cluzter.dev/images/og-cluzter-pdf.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Cluzter PDF" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://pdf.cluzter.dev/tachar-datos-pdf"
+    />
+    <meta
+      name="twitter:title"
+      content="Tachar datos personales en PDF (DNI, RUC, celular) gratis | Cluzter PDF"
+    />
+    <meta
+      name="twitter:description"
+      content="Oculta de verdad números de DNI, RUC, celulares, correos y cualquier palabra en tus PDF antes de compartirlos. Gratis y sin subir tus archivos: todo ocurre en tu navegador."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pdf.cluzter.dev/images/og-cluzter-pdf.png"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Tachar datos personales en PDF"
+    />
+    <title>
+      Tachar datos personales en PDF (DNI, RUC, celular) gratis | Cluzter PDF
+    </title>
+    <link href="/src/css/styles.css" rel="stylesheet" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/images/favicon-512x512.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  </head>
+
+  <body class="antialiased bg-gray-900">
+    {{> navbar }}
+
+    <div
+      id="uploader"
+      class="min-h-screen flex flex-col items-center justify-start py-12 p-4 bg-gray-900"
+    >
+      <div
+        id="tool-uploader"
+        class="bg-gray-800 rounded-xl shadow-xl px-4 py-8 md:p-8 max-w-2xl w-full text-gray-200 border border-gray-700"
+      >
+        <button
+          id="back-to-tools"
+          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+        >
+          <i data-lucide="arrow-left" class="cursor-pointer"></i>
+          <span class="cursor-pointer" data-i18n="tools.backToTools"
+            >Volver a las herramientas</span
+          >
+        </button>
+        <h1
+          class="text-2xl font-bold text-white mb-2"
+          data-i18n="tools:tacharDatosPdf.name"
+        >
+          Tachar datos personales en PDF
+        </h1>
+        <p class="text-gray-400 mb-6" data-i18n="tools:tacharDatosPdf.subtitle">
+          Encuentra y borra de verdad DNI, RUC, celulares, correos y las
+          palabras que elijas. El texto tachado se elimina del archivo, no solo
+          se tapa.
+        </p>
+        <div
+          id="drop-zone"
+          class="relative flex flex-col items-center justify-center w-full h-48 md:h-56 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+        >
+          <i data-lucide="file-search" class="w-10 h-10 mb-3 text-gray-400"></i>
+          <p class="mb-2 text-sm text-gray-400">
+            <span class="font-semibold" data-i18n="upload.clickToSelect"
+              >Haz clic para elegir un archivo</span
+            >
+            <span data-i18n="upload.orDragAndDrop">o arrástralo aquí</span>
+          </p>
+          <p class="text-xs text-gray-500" data-i18n="upload.filesNeverLeave">
+            Tus archivos nunca salen de tu dispositivo.
+          </p>
+          <input
+            id="file-input"
+            type="file"
+            accept="application/pdf,.pdf"
+            class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
+          />
+        </div>
+        <div
+          id="archivo-elegido"
+          class="hidden mt-4 flex items-center justify-between bg-gray-700 p-3 rounded-lg text-sm"
+        ></div>
+
+        <div id="opciones-tachar" class="hidden mt-6">
+          <p
+            class="text-sm font-medium text-gray-300 mb-2"
+            data-i18n="tools:tacharDatosPdf.queBuscar"
+          >
+            ¿Qué quieres tachar?
+          </p>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-300">
+            <label class="flex items-center gap-2"
+              ><input
+                id="tachar-dni"
+                type="checkbox"
+                class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+                checked
+              /><span data-i18n="tools:tacharDatosPdf.dni"
+                >Números de DNI</span
+              ></label
+            >
+            <label class="flex items-center gap-2"
+              ><input
+                id="tachar-ruc"
+                type="checkbox"
+                class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+                checked
+              /><span data-i18n="tools:tacharDatosPdf.ruc"
+                >Números de RUC</span
+              ></label
+            >
+            <label class="flex items-center gap-2"
+              ><input
+                id="tachar-celular"
+                type="checkbox"
+                class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+                checked
+              /><span data-i18n="tools:tacharDatosPdf.celular"
+                >Celulares</span
+              ></label
+            >
+            <label class="flex items-center gap-2"
+              ><input
+                id="tachar-correo"
+                type="checkbox"
+                class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+                checked
+              /><span data-i18n="tools:tacharDatosPdf.correo"
+                >Correos electrónicos</span
+              ></label
+            >
+          </div>
+          <label
+            for="tachar-terminos"
+            class="block mt-4 mb-2 text-sm font-medium text-gray-300"
+            data-i18n="tools:tacharDatosPdf.otrasPalabras"
+            >Otras palabras o frases (separadas por coma)</label
+          >
+          <textarea
+            id="tachar-terminos"
+            rows="2"
+            class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+            placeholder="Ej.: Juan Pérez Peña, Av. Arequipa 123"
+            data-i18n-placeholder="tools:tacharDatosPdf.ejemploPalabras"
+          ></textarea>
+          <button
+            id="buscar-btn"
+            class="btn-gradient w-full mt-4"
+            data-i18n="tools:tacharDatosPdf.buscar"
+          >
+            Buscar datos
+          </button>
+        </div>
+
+        <div id="resultados" class="hidden mt-6">
+          <div class="flex items-center justify-between">
+            <h2
+              class="text-lg font-semibold text-white"
+              data-i18n="tools:tacharDatosPdf.encontrados"
+            >
+              Datos encontrados
+            </h2>
+            <label class="flex items-center gap-2 text-sm text-gray-300"
+              ><input
+                id="marcar-todos"
+                type="checkbox"
+                class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+                checked
+              /><span data-i18n="tools:tacharDatosPdf.todos">Todos</span></label
+            >
+          </div>
+          <div
+            id="lista-resultados"
+            class="max-h-72 overflow-auto space-y-1 mt-3"
+          ></div>
+          <button
+            id="process-btn"
+            class="btn-gradient w-full mt-4"
+            data-i18n="tools:tacharDatosPdf.tachar"
+          >
+            Tachar y descargar
+          </button>
+          <p
+            class="text-xs text-gray-500 mt-3"
+            data-i18n="tools:tacharDatosPdf.notaReal"
+          >
+            El texto tachado se elimina del archivo: no se puede copiar ni
+            recuperar. Revisa el resultado antes de compartirlo.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="loader-modal"
+      class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+    >
+      <div
+        class="bg-gray-800 p-8 rounded-lg flex flex-col items-center gap-4 border border-gray-700 shadow-xl"
+      >
+        <div class="solid-spinner"></div>
+        <p id="loader-text" class="text-white text-lg font-medium">
+          Procesando...
+        </p>
+      </div>
+    </div>
+
+    <div
+      id="alert-modal"
+      class="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 hidden"
+    >
+      <div
+        class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm w-full border border-gray-700"
+      >
+        <h3
+          id="alert-title"
+          class="text-xl font-bold text-white mb-2"
+          data-i18n="alert.title"
+        >
+          Aviso
+        </h3>
+        <p id="alert-message" class="text-gray-300 mb-6"></p>
+        <button
+          id="alert-ok"
+          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+        >
+          OK
+        </button>
+      </div>
+    </div>
+
+    <section class="max-w-4xl mx-auto px-4 py-12">
+      <h2
+        class="text-3xl md:text-4xl font-bold text-center text-white mb-10"
+        data-i18n="tools:tacharDatosPdf.comoTitulo"
+      >
+        Cómo tachar datos personales en un PDF
+      </h2>
+      <ol class="space-y-4 text-gray-300 list-decimal list-inside">
+        <li data-i18n="tools:tacharDatosPdf.paso1">
+          Sube el PDF que quieres compartir.
+        </li>
+        <li data-i18n="tools:tacharDatosPdf.paso2">
+          Marca qué datos buscar (DNI, RUC, celulares, correos) y agrega otras
+          palabras si hace falta.
+        </li>
+        <li data-i18n="tools:tacharDatosPdf.paso3">
+          Revisa la lista de datos encontrados y desmarca los que no quieras
+          tachar.
+        </li>
+        <li data-i18n="tools:tacharDatosPdf.paso4">
+          Pulsa «Tachar y descargar»: los datos se borran del archivo y quedan
+          cubiertos en negro.
+        </li>
+      </ol>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-4 py-12">
+      <h2
+        class="text-3xl md:text-4xl font-bold text-center text-white mb-10"
+        data-i18n="faq.sectionTitle"
+      >
+        Preguntas frecuentes
+      </h2>
+      <div class="space-y-4">
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:tacharDatosPdf.faq1p"
+          >
+            ¿El dato tachado se puede recuperar?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:tacharDatosPdf.faq1r">
+            No. A diferencia de poner un rectángulo negro encima, esta
+            herramienta elimina el texto del archivo: no se puede copiar, buscar
+            ni recuperar.
+          </p>
+        </details>
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:tacharDatosPdf.faq2p"
+          >
+            ¿Funciona con documentos escaneados?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:tacharDatosPdf.faq2r">
+            Solo si el PDF tiene texto. Si es una foto o un escaneo, primero
+            pásalo por la herramienta OCR para que tenga texto y luego táchalo.
+          </p>
+        </details>
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:tacharDatosPdf.faq3p"
+          >
+            ¿Mi documento se sube a internet?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:tacharDatosPdf.faq3r">
+            No. Todo se procesa dentro de tu navegador; el archivo nunca sale de
+            tu dispositivo.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    {{> footer }}
+    <script type="module" src="/src/js/utils/lucide-init.ts"></script>
+    <script type="module" src="/src/js/utils/full-width.ts"></script>
+    <script type="module" src="/src/js/utils/simple-mode-footer.ts"></script>
+    <script type="module" src="/src/js/logic/tachar-datos-pdf-page.ts"></script>
+    <script type="module" src="/src/js/mobileMenu.ts"></script>
+    <script type="module" src="/src/js/main.ts"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Tachar datos personales en PDF - Cluzter PDF",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any - Web Browser",
+        "url": "https://pdf.cluzter.dev/tachar-datos-pdf",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "PEN"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿El dato tachado se puede recuperar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. A diferencia de poner un rectángulo negro encima, esta herramienta elimina el texto del archivo: no se puede copiar, buscar ni recuperar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Funciona con documentos escaneados?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Solo si el PDF tiene texto. Si es una foto o un escaneo, primero pásalo por la herramienta OCR para que tenga texto y luego táchalo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Mi documento se sube a internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Todo se procesa dentro de tu navegador; el archivo nunca sale de tu dispositivo."
+            }
+          }
+        ]
+      }
+    </script>
+  </body>
+</html>

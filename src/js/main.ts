@@ -158,6 +158,7 @@ const init = async () => {
   }
 
   const categoryTranslationKeys: Record<string, string> = {
+    'Peru Tools': 'tools:categories.peruTools',
     'Popular Tools': 'tools:categories.popularTools',
     'Edit & Annotate': 'tools:categories.editAnnotate',
     'Convert to PDF': 'tools:categories.convertToPdf',
@@ -168,6 +169,8 @@ const init = async () => {
   };
 
   const toolTranslationKeys: Record<string, string> = {
+    'DNI Both Sides': 'tools:dniAmbasCaras',
+    'Redact Personal Data': 'tools:tacharDatosPdf',
     'PDF Workflow Builder': 'tools:pdfWorkflow',
     'PDF Multi Tool': 'tools:pdfMultiTool',
     'Merge PDF': 'tools:mergePdf',

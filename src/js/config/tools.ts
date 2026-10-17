@@ -1,5 +1,25 @@
 // This file centralizes the definition of all available tools, organized by category.
 const baseCategories = [
+  // Cluzter PDF: herramientas propias pensadas para Perú
+  {
+    name: 'Peru Tools',
+    tools: [
+      {
+        href: import.meta.env.BASE_URL + 'dni-ambas-caras.html',
+        name: 'DNI Both Sides',
+        icon: 'ph-identification-card',
+        subtitle:
+          'Put the front and back of your DNI on one page, at real size and ready to print.',
+      },
+      {
+        href: import.meta.env.BASE_URL + 'tachar-datos-pdf.html',
+        name: 'Redact Personal Data',
+        icon: 'ph-eye-slash',
+        subtitle:
+          'Find and truly remove DNI, RUC, phone numbers, emails and any words from a PDF.',
+      },
+    ],
+  },
   {
     name: 'Popular Tools',
     tools: [

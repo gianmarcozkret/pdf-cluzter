@@ -682,6 +682,15 @@ export default defineConfig(() => {
           'edit-pdf': resolve(__dirname, 'src/pages/edit-pdf.html'),
           'edit-pdf-text': resolve(__dirname, 'src/pages/edit-pdf-text.html'),
           'jpg-to-pdf': resolve(__dirname, 'src/pages/jpg-to-pdf.html'),
+          // Cluzter PDF: herramientas propias
+          'dni-ambas-caras': resolve(
+            __dirname,
+            'src/pages/dni-ambas-caras.html'
+          ),
+          'tachar-datos-pdf': resolve(
+            __dirname,
+            'src/pages/tachar-datos-pdf.html'
+          ),
           'sign-pdf': resolve(__dirname, 'src/pages/sign-pdf.html'),
           'crop-pdf': resolve(__dirname, 'src/pages/crop-pdf.html'),
           'extract-pages': resolve(__dirname, 'src/pages/extract-pages.html'),

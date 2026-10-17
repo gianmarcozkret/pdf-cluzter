@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="DNI ambas caras en una hoja PDF gratis | Cluzter PDF"
+    />
+    <meta
+      name="description"
+      content="Junta el anverso y el reverso de tu DNI en una sola hoja A4, en tamaño real y listo para imprimir. Gratis, sin registro y sin subir tus fotos: todo se hace en tu celular o computadora."
+    />
+    <meta
+      name="keywords"
+      content="dni ambas caras en una hoja, dni ambas caras pdf, copia de dni, imprimir dni, anverso y reverso dni, dni en una hoja a4"
+    />
+    <meta name="author" content="Cluzter" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://pdf.cluzter.dev/dni-ambas-caras" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pdf.cluzter.dev/dni-ambas-caras" />
+    <meta
+      property="og:title"
+      content="DNI ambas caras en una hoja PDF gratis | Cluzter PDF"
+    />
+    <meta
+      property="og:description"
+      content="Junta el anverso y el reverso de tu DNI en una sola hoja A4, en tamaño real y listo para imprimir. Gratis, sin registro y sin subir tus fotos: todo se hace en tu celular o computadora."
+    />
+    <meta
+      property="og:image"
+      content="https://pdf.cluzter.dev/images/og-cluzter-pdf.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Cluzter PDF" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://pdf.cluzter.dev/dni-ambas-caras"
+    />
+    <meta
+      name="twitter:title"
+      content="DNI ambas caras en una hoja PDF gratis | Cluzter PDF"
+    />
+    <meta
+      name="twitter:description"
+      content="Junta el anverso y el reverso de tu DNI en una sola hoja A4, en tamaño real y listo para imprimir. Gratis, sin registro y sin subir tus fotos: todo se hace en tu celular o computadora."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pdf.cluzter.dev/images/og-cluzter-pdf.png"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="DNI ambas caras en una hoja"
+    />
+    <title>DNI ambas caras en una hoja PDF gratis | Cluzter PDF</title>
+    <link href="/src/css/styles.css" rel="stylesheet" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/images/favicon-512x512.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  </head>
+
+  <body class="antialiased bg-gray-900">
+    {{> navbar }}
+
+    <div
+      id="uploader"
+      class="min-h-screen flex flex-col items-center justify-start py-12 p-4 bg-gray-900"
+    >
+      <div
+        id="tool-uploader"
+        class="bg-gray-800 rounded-xl shadow-xl px-4 py-8 md:p-8 max-w-4xl w-full text-gray-200 border border-gray-700"
+      >
+        <button
+          id="back-to-tools"
+          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+        >
+          <i data-lucide="arrow-left" class="cursor-pointer"></i>
+          <span class="cursor-pointer" data-i18n="tools.backToTools"
+            >Volver a las herramientas</span
+          >
+        </button>
+        <h1
+          class="text-2xl font-bold text-white mb-2"
+          data-i18n="tools:dniAmbasCaras.name"
+        >
+          DNI ambas caras en una hoja
+        </h1>
+        <p class="text-gray-400 mb-6" data-i18n="tools:dniAmbasCaras.subtitle">
+          Sube una foto de cada cara de tu DNI, recórtala y obtén un PDF listo
+          para imprimir con el tamaño real del documento.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h2
+              class="text-lg font-semibold text-white mb-2"
+              data-i18n="tools:dniAmbasCaras.anverso"
+            >
+              Anverso (cara con foto)
+            </h2>
+            <div
+              id="zona-anverso"
+              class="relative flex flex-col items-center justify-center w-full h-48 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+            >
+              <i
+                data-lucide="image-plus"
+                class="w-10 h-10 mb-3 text-gray-400"
+              ></i>
+              <p class="text-sm text-gray-400 px-4 text-center">
+                <span
+                  class="font-semibold"
+                  data-i18n="tools:dniAmbasCaras.elegirFoto"
+                  >Toca para elegir la foto</span
+                >
+              </p>
+              <p
+                class="text-xs text-gray-500"
+                data-i18n="tools:dniAmbasCaras.formatos"
+              >
+                JPG, PNG o WEBP
+              </p>
+              <input
+                id="file-input"
+                type="file"
+                accept="image/jpeg,image/png,image/webp,image/*"
+                class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
+              />
+            </div>
+            <div id="editor-anverso" class="hidden">
+              <div
+                class="bg-gray-900 rounded-lg overflow-hidden"
+                style="height: 260px"
+              >
+                <img
+                  id="img-anverso"
+                  alt=""
+                  style="display: block; max-width: 100%"
+                />
+              </div>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-girar="anverso"
+                  data-grados="-90"
+                >
+                  <i data-lucide="rotate-ccw" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.girarIzq">Girar</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-girar="anverso"
+                  data-grados="90"
+                >
+                  <i data-lucide="rotate-cw" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.girarDer">Girar</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-cambiar="anverso"
+                >
+                  <i data-lucide="replace" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.cambiarFoto"
+                    >Cambiar foto</span
+                  >
+                </button>
+              </div>
+              <p
+                class="text-xs text-gray-500 mt-2"
+                data-i18n="tools:dniAmbasCaras.ajustaRecuadro"
+              >
+                Ajusta el recuadro a los bordes del DNI.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h2
+              class="text-lg font-semibold text-white mb-2"
+              data-i18n="tools:dniAmbasCaras.reverso"
+            >
+              Reverso (cara de atrás)
+            </h2>
+            <div
+              id="zona-reverso"
+              class="relative flex flex-col items-center justify-center w-full h-48 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+            >
+              <i
+                data-lucide="image-plus"
+                class="w-10 h-10 mb-3 text-gray-400"
+              ></i>
+              <p class="text-sm text-gray-400 px-4 text-center">
+                <span
+                  class="font-semibold"
+                  data-i18n="tools:dniAmbasCaras.elegirFoto"
+                  >Toca para elegir la foto</span
+                >
+              </p>
+              <p
+                class="text-xs text-gray-500"
+                data-i18n="tools:dniAmbasCaras.formatos"
+              >
+                JPG, PNG o WEBP
+              </p>
+              <input
+                id="file-input-reverso"
+                type="file"
+                accept="image/jpeg,image/png,image/webp,image/*"
+                class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
+              />
+            </div>
+            <div id="editor-reverso" class="hidden">
+              <div
+                class="bg-gray-900 rounded-lg overflow-hidden"
+                style="height: 260px"
+              >
+                <img
+                  id="img-reverso"
+                  alt=""
+                  style="display: block; max-width: 100%"
+                />
+              </div>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-girar="reverso"
+                  data-grados="-90"
+                >
+                  <i data-lucide="rotate-ccw" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.girarIzq">Girar</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-girar="reverso"
+                  data-grados="90"
+                >
+                  <i data-lucide="rotate-cw" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.girarDer">Girar</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1"
+                  data-cambiar="reverso"
+                >
+                  <i data-lucide="replace" class="w-4 h-4"></i
+                  ><span data-i18n="tools:dniAmbasCaras.cambiarFoto"
+                    >Cambiar foto</span
+                  >
+                </button>
+              </div>
+              <p
+                class="text-xs text-gray-500 mt-2"
+                data-i18n="tools:dniAmbasCaras.ajustaRecuadro"
+              >
+                Ajusta el recuadro a los bordes del DNI.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+          <div>
+            <label
+              for="dni-tamano"
+              class="block mb-2 text-sm font-medium text-gray-300"
+              data-i18n="tools:dniAmbasCaras.tamano"
+              >Tamaño</label
+            >
+            <select
+              id="dni-tamano"
+              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+            >
+              <option value="real" data-i18n="tools:dniAmbasCaras.tamanoReal">
+                Tamaño real del DNI (8.6 × 5.4 cm)
+              </option>
+              <option
+                value="grande"
+                data-i18n="tools:dniAmbasCaras.tamanoGrande"
+              >
+                Ampliado 1.5 veces (más legible)
+              </option>
+            </select>
+          </div>
+          <div>
+            <label
+              for="dni-hoja"
+              class="block mb-2 text-sm font-medium text-gray-300"
+              data-i18n="tools:dniAmbasCaras.hoja"
+              >Hoja</label
+            >
+            <select
+              id="dni-hoja"
+              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+            >
+              <option value="a4">A4</option>
+              <option value="carta" data-i18n="tools:dniAmbasCaras.hojaCarta">
+                Carta
+              </option>
+            </select>
+          </div>
+        </div>
+        <div class="mt-4">
+          <label
+            for="dni-texto"
+            class="block mb-2 text-sm font-medium text-gray-300"
+            data-i18n="tools:dniAmbasCaras.textoSeguridad"
+            >Texto de seguridad (opcional)</label
+          >
+          <input
+            id="dni-texto"
+            type="text"
+            maxlength="60"
+            class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+            placeholder="Ej.: Solo para trámite en el banco - 17/10/2026"
+            data-i18n-placeholder="tools:dniAmbasCaras.textoEjemplo"
+          />
+          <p
+            class="mt-1 text-xs text-gray-400"
+            data-i18n="tools:dniAmbasCaras.textoAyuda"
+          >
+            Se escribe en diagonal sobre el DNI para que la copia no se pueda
+            usar en otro trámite.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-6 mt-4 text-sm text-gray-300">
+          <label class="flex items-center gap-2"
+            ><input
+              id="dni-guias"
+              type="checkbox"
+              class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+              checked
+            /><span data-i18n="tools:dniAmbasCaras.guias"
+              >Líneas de corte</span
+            ></label
+          >
+          <label class="flex items-center gap-2"
+            ><input
+              id="dni-gris"
+              type="checkbox"
+              class="w-4 h-4 rounded bg-gray-700 border-gray-600 text-indigo-600 focus:ring-indigo-500"
+            /><span data-i18n="tools:dniAmbasCaras.gris"
+              >Blanco y negro</span
+            ></label
+          >
+        </div>
+
+        <button
+          id="process-btn"
+          class="btn-gradient w-full mt-6"
+          data-i18n="tools:dniAmbasCaras.crear"
+        >
+          Crear PDF
+        </button>
+        <p
+          class="text-xs text-gray-500 mt-3 text-center"
+          data-i18n="upload.filesNeverLeave"
+        >
+          Tus archivos nunca salen de tu dispositivo.
+        </p>
+      </div>
+    </div>
+
+    <div
+      id="loader-modal"
+      class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+    >
+      <div
+        class="bg-gray-800 p-8 rounded-lg flex flex-col items-center gap-4 border border-gray-700 shadow-xl"
+      >
+        <div class="solid-spinner"></div>
+        <p id="loader-text" class="text-white text-lg font-medium">
+          Procesando...
+        </p>
+      </div>
+    </div>
+
+    <div
+      id="alert-modal"
+      class="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 hidden"
+    >
+      <div
+        class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm w-full border border-gray-700"
+      >
+        <h3
+          id="alert-title"
+          class="text-xl font-bold text-white mb-2"
+          data-i18n="alert.title"
+        >
+          Aviso
+        </h3>
+        <p id="alert-message" class="text-gray-300 mb-6"></p>
+        <button
+          id="alert-ok"
+          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+        >
+          OK
+        </button>
+      </div>
+    </div>
+
+    <section class="max-w-4xl mx-auto px-4 py-12">
+      <h2
+        class="text-3xl md:text-4xl font-bold text-center text-white mb-10"
+        data-i18n="tools:dniAmbasCaras.comoTitulo"
+      >
+        Cómo poner tu DNI por ambas caras en una hoja
+      </h2>
+      <ol class="space-y-4 text-gray-300 list-decimal list-inside">
+        <li data-i18n="tools:dniAmbasCaras.paso1">
+          Toma una foto de cada cara de tu DNI sobre una superficie oscura y con
+          buena luz.
+        </li>
+        <li data-i18n="tools:dniAmbasCaras.paso2">
+          Sube el anverso y el reverso, y ajusta el recuadro a los bordes del
+          documento.
+        </li>
+        <li data-i18n="tools:dniAmbasCaras.paso3">
+          Elige el tamaño (real o ampliado) y, si quieres, escribe un texto de
+          seguridad.
+        </li>
+        <li data-i18n="tools:dniAmbasCaras.paso4">
+          Pulsa «Crear PDF» y descarga la hoja lista para imprimir o enviar.
+        </li>
+      </ol>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-4 py-12">
+      <h2
+        class="text-3xl md:text-4xl font-bold text-center text-white mb-10"
+        data-i18n="faq.sectionTitle"
+      >
+        Preguntas frecuentes
+      </h2>
+      <div class="space-y-4">
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:dniAmbasCaras.faq1p"
+          >
+            ¿Mis fotos se suben a algún servidor?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:dniAmbasCaras.faq1r">
+            No. Todo se procesa dentro de tu navegador: tus fotos nunca salen de
+            tu celular o computadora.
+          </p>
+        </details>
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:dniAmbasCaras.faq2p"
+          >
+            ¿Sale con el tamaño real del DNI?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:dniAmbasCaras.faq2r">
+            Sí. Con la opción «Tamaño real» cada cara mide 8.56 × 5.4 cm, el
+            tamaño del DNI peruano. Al imprimir, elige «Tamaño real» o 100% (no
+            «Ajustar a la página»).
+          </p>
+        </details>
+        <details class="bg-gray-800 rounded-lg border border-gray-700 p-4">
+          <summary
+            class="font-semibold text-white cursor-pointer"
+            data-i18n="tools:dniAmbasCaras.faq3p"
+          >
+            ¿Para qué sirve el texto de seguridad?
+          </summary>
+          <p class="mt-2 text-gray-300" data-i18n="tools:dniAmbasCaras.faq3r">
+            Escribe en diagonal sobre la copia para qué trámite la entregas y la
+            fecha. Así nadie puede reutilizarla para otra cosa.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    {{> footer }}
+    <script type="module" src="/src/js/utils/lucide-init.ts"></script>
+    <script type="module" src="/src/js/utils/full-width.ts"></script>
+    <script type="module" src="/src/js/utils/simple-mode-footer.ts"></script>
+    <script type="module" src="/src/js/logic/dni-ambas-caras-page.ts"></script>
+    <script type="module" src="/src/js/mobileMenu.ts"></script>
+    <script type="module" src="/src/js/main.ts"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "DNI ambas caras en una hoja - Cluzter PDF",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any - Web Browser",
+        "url": "https://pdf.cluzter.dev/dni-ambas-caras",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "PEN"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Mis fotos se suben a algún servidor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Todo se procesa dentro de tu navegador: tus fotos nunca salen de tu celular o computadora."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Sale con el tamaño real del DNI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Con la opción «Tamaño real» cada cara mide 8.56 × 5.4 cm, el tamaño del DNI peruano. Al imprimir, elige «Tamaño real» o 100% (no «Ajustar a la página»)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Para qué sirve el texto de seguridad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Escribe en diagonal sobre la copia para qué trámite la entregas y la fecha. Así nadie puede reutilizarla para otra cosa."
+            }
+          }
+        ]
+      }
+    </script>
+  </body>
+</html>
