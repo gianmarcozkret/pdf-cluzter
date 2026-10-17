@@ -15,6 +15,11 @@
   principal y solo español e inglés. Se quitaron secciones que solo aplican a BentoPDF (donaciones, «usado por»,
   testimonios, sellos de cumplimiento, Kura, Hyper Compress, blog, referidos y redes sociales). Páginas propias:
   acerca de, contacto, privacidad, términos y licencia.
+- **Todo en español:** BentoPDF deja en inglés muchos textos fijos (opciones, avisos, preguntas frecuentes, títulos
+  y datos estructurados). Los diccionarios `public/locales/es/textos.json` (interfaz y avisos con variables) y
+  `public/locales/es/textos-info.json` (textos informativos) se aplican al compilar en las páginas `/es/`
+  (`herramientas/traducir-paginas.mjs`) y en el navegador (`src/js/i18n/textos.ts`) para lo que se genera al usar las
+  herramientas.
 - **Sin terceros:** todos los motores WebAssembly (PyMuPDF, Ghostscript, CoherentPDF, Tesseract) se sirven desde
   el propio dominio y la CSP no permite conexiones externas. LibreOffice usa los archivos oficiales del paquete
   npm `@matbee/libreoffice-converter`.

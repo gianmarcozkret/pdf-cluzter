@@ -126,11 +126,22 @@ export async function activarTextosEspanol(): Promise<void> {
 
   try {
     const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-    const respuesta = await fetch(`${base}locales/es/textos.json`);
-    if (!respuesta.ok) return;
-    const dic = (await respuesta.json()) as Diccionario;
-    for (const [en, es] of Object.entries(dic.exactos)) exactos.set(en, es);
-    for (const [en, es] of dic.plantillas) {
+    // Las páginas /es/ ya traen traducidos los textos informativos; fuera de /es/ (navegador en español en una
+    // página de la raíz) también se cargan esos (preguntas frecuentes, pasos).
+    const enEs = window.location.pathname.startsWith(`${base}es/`);
+    const archivos = enEs
+      ? ['textos.json']
+      : ['textos.json', 'textos-info.json'];
+    const dics = await Promise.all(
+      archivos.map(async (a) => {
+        const r = await fetch(`${base}locales/es/${a}`);
+        return r.ok ? ((await r.json()) as Partial<Diccionario>) : {};
+      })
+    );
+    for (const dic of dics)
+      for (const [en, es] of Object.entries(dic.exactos ?? {}))
+        exactos.set(en, es);
+    for (const [en, es] of dics[0].plantillas ?? []) {
       const partes = en.split(/\{\d+\}/);
       plantillas.push({
         prefijo: partes[0],
