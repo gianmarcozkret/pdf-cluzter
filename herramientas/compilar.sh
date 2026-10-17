@@ -30,6 +30,9 @@ export NODE_OPTIONS="--max-old-space-size=3072 --dns-result-order=ipv4first"
 
 nice -n 10 npm run build
 
+# Páginas /es/: traduce los textos que BentoPDF dejó fijos en inglés (diccionario public/locales/es/textos*.json)
+node herramientas/traducir-paginas.mjs
+
 # Compresión para nginx (gzip_static): cada archivo de texto o WASM queda con su .gz al lado. Brotli no se usa
 # (nginx no trae el módulo) y Cloudflare no guarda en caché .wasm ni .data, así que van ya comprimidos.
 find dist -name '*.br' -delete

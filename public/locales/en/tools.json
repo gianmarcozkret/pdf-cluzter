@@ -1412,5 +1412,9 @@
     "faq2r": "Only if the PDF contains text. For a photo or a scan, run it through OCR first and then redact it.",
     "faq3p": "Is my document uploaded?",
     "faq3r": "No. Everything is processed inside your browser; the file never leaves your device."
+  },
+  "home": {
+    "pageTitle": "Free PDF tools: merge, compress and convert PDF | Cluzter PDF",
+    "subtitle": "100+ free PDF tools that run in your browser: merge, compress, convert Word and PDF, sign, OCR and more. No sign-up and no uploads."
   }
 }

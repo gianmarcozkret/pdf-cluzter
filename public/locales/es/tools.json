@@ -1,11 +1,11 @@
 {
   "categories": {
-    "popularTools": "Herramientas Populares",
-    "editAnnotate": "Editar y Anotar",
+    "popularTools": "Herramientas populares",
+    "editAnnotate": "Editar y anotar",
     "convertToPdf": "Convertir a PDF",
     "convertFromPdf": "Convertir desde PDF",
-    "organizeManage": "Organizar y Gestionar",
-    "optimizeRepair": "Optimizar y Reparar",
+    "organizeManage": "Organizar y gestionar",
+    "optimizeRepair": "Optimizar y reparar",
     "securePdf": "Asegurar PDF",
     "input": "Entrada",
     "output": "Salida",
@@ -14,47 +14,51 @@
   "convertToPdf": "Convertir a PDF",
   "pdfMultiTool": {
     "name": "Multiherramienta PDF",
-    "subtitle": "Fusionar, Dividir, Organizar, Eliminar, Rotar, Agregar Páginas en Blanco, Extraer y Duplicar en una interfaz unificada."
+    "subtitle": "Unir, dividir, organizar, eliminar, rotar, agregar páginas en blanco, extraer y duplicar en una sola pantalla."
   },
   "mergePdf": {
-    "name": "Fusionar PDF",
-    "subtitle": "Combina múltiples PDFs en un solo archivo. Preserva Marcadores.",
+    "name": "Unir PDF",
+    "subtitle": "Combina múltiples PDF en un solo archivo. Preserva Marcadores.",
     "retainPageLabels": "Conservar las etiquetas de página originales de cada archivo",
-    "retainPageLabelsHint": "Desactivado (predeterminado): el PDF combinado usa numeración natural 1–N. Activado: se conservan las etiquetas de página originales de cada archivo (puede producir etiquetas duplicadas)."
+    "retainPageLabelsHint": "Desactivado (predeterminado): el PDF combinado usa numeración natural 1–N. Activado: se conservan las etiquetas de página originales de cada archivo (puede producir etiquetas duplicadas).",
+    "pageTitle": "Unir PDF gratis: junta varios PDF en uno online | Cluzter PDF"
   },
   "splitPdf": {
     "name": "Dividir PDF",
-    "subtitle": "Extrae un rango de páginas en un nuevo PDF."
+    "subtitle": "Extrae un rango de páginas en un nuevo PDF.",
+    "pageTitle": "Dividir PDF gratis: separa páginas de un PDF online | Cluzter PDF"
   },
   "compressPdf": {
     "name": "Comprimir PDF",
     "subtitle": "Reduce el tamaño de archivo de tu PDF.",
-    "algorithmLabel": "Algoritmo de Compresión",
-    "condense": "Condensar (Recomendado)",
-    "photon": "Photon (Para PDFs con Muchas Fotos)",
-    "condenseInfo": "Condensar usa compresión avanzada: elimina peso muerto, optimiza imágenes, reduce fuentes. Mejor para la mayoría de PDFs.",
-    "photonInfo": "Photon convierte páginas en imágenes. Úsalo para PDFs con muchas fotos/escaneados.",
+    "algorithmLabel": "Algoritmo de compresión",
+    "condense": "Condensar (recomendado)",
+    "photon": "Photon (para PDF con muchas fotos)",
+    "condenseInfo": "Condensar usa compresión avanzada: elimina peso muerto, optimiza imágenes, reduce fuentes. Mejor para la mayoría de PDF.",
+    "photonInfo": "Photon convierte páginas en imágenes. Úsalo para PDF con muchas fotos/escaneados.",
     "photonWarning": "Advertencia: El texto dejará de ser seleccionable y los enlaces dejarán de funcionar.",
-    "levelLabel": "Nivel de Compresión",
-    "light": "Ligero (Preservar Calidad)",
-    "balanced": "Equilibrado (Recomendado)",
-    "aggressive": "Agresivo (Archivos Más Pequeños)",
-    "extreme": "Extremo (Compresión Máxima)",
-    "grayscale": "Convertir a Escala de Grises",
+    "levelLabel": "Nivel de compresión",
+    "light": "Ligero (preservar calidad)",
+    "balanced": "Equilibrado (recomendado)",
+    "aggressive": "Agresivo (archivos más pequeños)",
+    "extreme": "Extremo (compresión máxima)",
+    "grayscale": "Convertir a escala de grises",
     "grayscaleHint": "Reduce el tamaño del archivo eliminando información de color",
-    "customSettings": "Configuración Personalizada",
+    "customSettings": "Configuración personalizada",
     "customSettingsHint": "Ajusta los parámetros de compresión:",
-    "outputQuality": "Calidad de Salida",
-    "resizeImagesTo": "Redimensionar Imágenes a",
-    "onlyProcessAbove": "Solo Procesar Arriba de",
+    "outputQuality": "Calidad de salida",
+    "resizeImagesTo": "Redimensionar imágenes a",
+    "onlyProcessAbove": "Solo procesar arriba de",
     "removeMetadata": "Eliminar metadatos",
     "subsetFonts": "Reducir fuentes (eliminar glifos no usados)",
     "removeThumbnails": "Eliminar miniaturas incrustadas",
-    "compressButton": "Comprimir PDF"
+    "compressButton": "Comprimir PDF",
+    "pageTitle": "Comprimir PDF gratis: reduce el peso de tu PDF online | Cluzter PDF"
   },
   "pdfEditor": {
-    "name": "Editor PDF",
-    "subtitle": "Anotar, resaltar, redactar, comentar, agregar formas/imágenes, buscar y ver PDFs."
+    "name": "Editar PDF",
+    "subtitle": "Anotar, resaltar, redactar, comentar, agregar formas/imágenes, buscar y ver PDF.",
+    "pageTitle": "Editar PDF gratis online: texto, firmas y anotaciones | Cluzter PDF"
   },
   "editPdfText": {
     "name": "Editar texto PDF",
@@ -176,31 +180,35 @@
   },
   "jpgToPdf": {
     "name": "JPG a PDF",
-    "subtitle": "Crea un PDF desde imágenes JPG, JPEG y JPEG2000 (JP2/JPX)."
+    "subtitle": "Crea un PDF desde imágenes JPG, JPEG y JPEG2000 (JP2/JPX).",
+    "pageTitle": "JPG a PDF gratis: convierte fotos a PDF online | Cluzter PDF"
   },
   "signPdf": {
     "name": "Firmar PDF",
-    "subtitle": "Dibuja, escribe o carga tu firma."
+    "subtitle": "Dibuja, escribe o carga tu firma.",
+    "pageTitle": "Firmar PDF gratis: agrega tu firma a un PDF online | Cluzter PDF"
   },
   "cropPdf": {
     "name": "Recortar PDF",
     "subtitle": "Recorta los márgenes de cada página en tu PDF."
   },
   "extractPages": {
-    "name": "Extraer Páginas",
-    "subtitle": "Guarda una selección de páginas como nuevos archivos."
+    "name": "Extraer páginas",
+    "subtitle": "Guarda una selección de páginas como nuevos archivos.",
+    "pageTitle": "Extraer páginas de un PDF gratis | Cluzter PDF"
   },
   "duplicateOrganize": {
-    "name": "Duplicar y Organizar",
+    "name": "Duplicar y organizar",
     "subtitle": "Duplica, reordena y elimina páginas.",
     "saveChanges": "Guardar cambios"
   },
   "deletePages": {
-    "name": "Eliminar Páginas",
-    "subtitle": "Elimina páginas específicas de tu documento."
+    "name": "Eliminar páginas",
+    "subtitle": "Elimina páginas específicas de tu documento.",
+    "pageTitle": "Eliminar páginas de un PDF gratis | Cluzter PDF"
   },
   "editBookmarks": {
-    "name": "Editar Marcadores",
+    "name": "Editar marcadores",
     "subtitle": "Agrega, edita, importa, elimina y extrae marcadores PDF.",
     "autoExtractExisting": "Extraer automáticamente marcadores existentes",
     "importSectionTitle": "O importar marcadores",
@@ -211,7 +219,7 @@
     "orDragHere": "o arrastra aquí"
   },
   "tableOfContents": {
-    "name": "Tabla de Contenidos",
+    "name": "Índice del PDF",
     "subtitle": "Genera una página de tabla de contenidos desde los marcadores PDF.",
     "titleLabel": "Título de TDC",
     "fontSize": "Tamaño de fuente",
@@ -227,8 +235,9 @@
     "workerErrorOccurred": "Ocurrió un error en el worker. Consulta la consola para más detalles."
   },
   "pageNumbers": {
-    "name": "Números de Página",
-    "subtitle": "Inserta números de página en tu documento."
+    "name": "Números de página",
+    "subtitle": "Inserta números de página en tu documento.",
+    "pageTitle": "Numerar páginas de un PDF gratis | Cluzter PDF"
   },
   "addPageLabels": {
     "name": "Agregar etiquetas de página",
@@ -294,16 +303,17 @@
     "subtitle": "Añadir números Bates secuenciales en uno o más archivos PDF."
   },
   "addWatermark": {
-    "name": "Agregar Marca de Agua",
+    "name": "Agregar marca de agua",
     "subtitle": "Estampa texto o una imagen sobre tus páginas PDF.",
-    "applyToAllPages": "Aplicar a todas las páginas"
+    "applyToAllPages": "Aplicar a todas las páginas",
+    "pageTitle": "Poner marca de agua a un PDF gratis | Cluzter PDF"
   },
   "headerFooter": {
-    "name": "Encabezado y Pie de Página",
+    "name": "Encabezado y pie de página",
     "subtitle": "Agrega texto en la parte superior e inferior de las páginas."
   },
   "invertColors": {
-    "name": "Invertir Colores",
+    "name": "Invertir colores",
     "subtitle": "Crea una versión en \"modo oscuro\" de tu PDF."
   },
   "scannerEffect": {
@@ -338,46 +348,47 @@
     "processButton": "Aplicar ajustes de color"
   },
   "backgroundColor": {
-    "name": "Color de Fondo",
+    "name": "Color de fondo",
     "subtitle": "Cambia el color de fondo de tu PDF."
   },
   "changeTextColor": {
-    "name": "Cambiar Color de Texto",
+    "name": "Cambiar color de texto",
     "subtitle": "Cambia el color del texto en tu PDF."
   },
   "addStamps": {
-    "name": "Agregar Sellos",
+    "name": "Agregar sellos",
     "subtitle": "Agrega sellos de imagen a tu PDF usando la barra de herramientas de anotación.",
-    "usernameLabel": "Nombre de Usuario del Sello",
+    "usernameLabel": "Nombre de usuario del sello",
     "usernamePlaceholder": "Ingresa tu nombre (para sellos)",
     "usernameHint": "Este nombre aparecerá en los sellos que crees.",
     "saveButton": "Guardar PDF sellado"
   },
   "removeAnnotations": {
-    "name": "Eliminar Anotaciones",
+    "name": "Eliminar anotaciones",
     "subtitle": "Elimina comentarios, resaltados y enlaces."
   },
   "pdfFormFiller": {
-    "name": "Rellenar Formularios PDF",
+    "name": "Rellenar formularios PDF",
     "subtitle": "Rellena formularios directamente en el navegador. También soporta formularios XFA.",
     "uploadHint": "Sube un PDF con campos de formulario. Rellénalos directamente en el visor de abajo, luego haz clic en el botón para guardar y descargar el formulario completado. También admite formularios XFA.",
     "xfaNoteTitle": "Nota sobre formularios XFA:",
     "xfaNoteDescription": "XFA (XML Forms Architecture) es un formato heredado solo compatible con ciertos visores de PDF como Cluzter PDF y Firefox. Si abres un PDF XFA en otro software y ves páginas en blanco o ningún campo de formulario, significa que ese visor no admite XFA. Para ver y rellenar correctamente formularios XFA, usa Firefox o el llenador de formularios de Cluzter PDF."
   },
   "createPdfForm": {
-    "name": "Crear Formulario PDF",
+    "name": "Crear formulario PDF",
     "subtitle": "Crea formularios PDF rellenables con campos de texto arrastrables.",
     "orSeparator": "O",
     "createBlankPdf": "Crear PDF en blanco"
   },
   "removeBlankPages": {
-    "name": "Eliminar Páginas en Blanco",
+    "name": "Eliminar páginas en blanco",
     "subtitle": "Detecta y elimina automáticamente páginas en blanco.",
     "sensitivityHint": "Mayor = más estricto, solo páginas completamente en blanco. Menor = permite páginas con algo de contenido."
   },
   "imageToPdf": {
     "name": "Imágenes a PDF",
-    "subtitle": "Convierte JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP a PDF."
+    "subtitle": "Convierte JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP a PDF.",
+    "pageTitle": "Imágenes a PDF gratis: junta fotos en un PDF | Cluzter PDF"
   },
   "pngToPdf": {
     "name": "PNG a PDF",
@@ -450,7 +461,8 @@
     },
     "loader": {
       "converting": "Convirtiendo a JPG..."
-    }
+    },
+    "pageTitle": "PDF a JPG gratis: convierte páginas de PDF a imágenes | Cluzter PDF"
   },
   "pdfToPng": {
     "name": "PDF a PNG",
@@ -504,7 +516,7 @@
   "pdfToTiff": {
     "name": "PDF a TIFF",
     "subtitle": "Convierte cada página PDF en una imagen TIFF.",
-    "dpi": "PPP (Resolución)",
+    "dpi": "PPP (resolución)",
     "dpiExplanation": "Mayor PPP = mejor calidad para impresión, mayor tamaño de archivo",
     "compression": "Compresión",
     "compressionExplanation": "LZW y Deflate son sin pérdida. CCITT Grupo 4 es ideal para documentos escaneados en B/N.",
@@ -552,7 +564,7 @@
     }
   },
   "pdfToGreyscale": {
-    "name": "PDF a Escala de Grises",
+    "name": "PDF a blanco y negro",
     "subtitle": "Convierte todos los colores a blanco y negro."
   },
   "pdfToJson": {
@@ -589,8 +601,8 @@
     "embedFullFontsLabel": "Incrustar fuentes completas (archivo más grande, mejor compatibilidad)",
     "whitelistPresetLabel": "Preajuste de lista blanca de caracteres",
     "whitelistNone": "Ninguno (todos los caracteres)",
-    "whitelistAlphanumeric": "Alfanumérico + Puntuación básica",
-    "whitelistNumbersCurrency": "Números + Símbolos de moneda",
+    "whitelistAlphanumeric": "Alfanumérico + puntuación básica",
+    "whitelistNumbersCurrency": "Números + símbolos de moneda",
     "whitelistLettersOnly": "Solo letras (A-Z, a-z)",
     "whitelistNumbersOnly": "Solo números (0-9)",
     "whitelistInvoice": "Factura/Recibo (números, $, ., -, /)",
@@ -625,11 +637,12 @@
     "characterFilteringLabel": "Filtrado de caracteres:",
     "characterFilteringDescription": "Usa listas blancas para filtrar caracteres no deseados y mejorar la precisión para tipos específicos de documentos (facturas, formularios, etc.).",
     "multiLanguageSupportLabel": "Soporte multilingüe:",
-    "multiLanguageSupportDescription": "Selecciona varios idiomas para documentos que contengan contenido en idiomas mixtos."
+    "multiLanguageSupportDescription": "Selecciona varios idiomas para documentos que contengan contenido en idiomas mixtos.",
+    "pageTitle": "OCR en PDF gratis: convierte un PDF escaneado en texto | Cluzter PDF"
   },
   "alternateMerge": {
-    "name": "Alternar y Mezclar Páginas",
-    "subtitle": "Fusiona PDFs alternando páginas de cada PDF. Preserva Marcadores.",
+    "name": "Alternar y mezclar páginas",
+    "subtitle": "Une PDF alternando las páginas de cada uno. Conserva los marcadores.",
     "retainPageLabels": "Conservar las etiquetas de página originales de cada archivo",
     "retainPageLabelsHint": "Desactivado (predeterminado): el PDF combinado usa numeración natural 1–N. Activado: se conservan las etiquetas de página originales de cada archivo (puede producir etiquetas duplicadas)."
   },
@@ -679,35 +692,36 @@
     "faqBackOrderAnswer": "Depende de cómo se colocó la pila en la segunda pasada. Girar la pila entera produce reversos en orden inverso, que es la opción predeterminada. Si tu escáner los devolvió en el mismo orden que los anversos, elige mantener el bloque tal cual."
   },
   "addAttachments": {
-    "name": "Agregar Adjuntos",
+    "name": "Agregar adjuntos",
     "subtitle": "Incrusta uno o más archivos en tu PDF."
   },
   "extractAttachments": {
-    "name": "Extraer Adjuntos",
+    "name": "Extraer adjuntos",
     "subtitle": "Extrae todos los archivos incrustados de PDF(s) como un ZIP."
   },
   "editAttachments": {
-    "name": "Editar Adjuntos",
+    "name": "Editar adjuntos",
     "subtitle": "Ve o elimina adjuntos en tu PDF."
   },
   "dividePages": {
-    "name": "Dividir Páginas",
+    "name": "Dividir páginas",
     "subtitle": "Divide páginas horizontal o verticalmente."
   },
   "addBlankPage": {
-    "name": "Agregar Página en Blanco",
+    "name": "Agregar página en blanco",
     "subtitle": "Inserta una página vacía en cualquier lugar de tu PDF."
   },
   "reversePages": {
-    "name": "Invertir Páginas",
+    "name": "Invertir páginas",
     "subtitle": "Invierte el orden de todas las páginas en tu documento."
   },
   "rotatePdf": {
     "name": "Rotar PDF",
-    "subtitle": "Gira páginas en incrementos de 90 grados."
+    "subtitle": "Gira páginas en incrementos de 90 grados.",
+    "pageTitle": "Rotar PDF gratis: gira las páginas de tu PDF | Cluzter PDF"
   },
   "rotateCustom": {
-    "name": "Rotar por Grados Personalizados",
+    "name": "Rotar por grados personalizados",
     "subtitle": "Rota páginas por cualquier ángulo personalizado."
   },
   "nUpPdf": {
@@ -715,24 +729,24 @@
     "subtitle": "Organiza múltiples páginas en una sola hoja."
   },
   "combineToSinglePage": {
-    "name": "Combinar en Una Sola Página",
+    "name": "Combinar en una sola página",
     "subtitle": "Une todas las páginas en un desplazamiento continuo."
   },
   "viewMetadata": {
-    "name": "Ver Metadatos",
+    "name": "Ver metadatos",
     "subtitle": "Inspecciona las propiedades ocultas de tu PDF."
   },
   "editMetadata": {
-    "name": "Editar Metadatos",
+    "name": "Editar metadatos",
     "subtitle": "Cambia el autor, título y otras propiedades."
   },
   "pdfsToZip": {
-    "name": "PDFs a ZIP",
+    "name": "PDF a ZIP",
     "subtitle": "Empaqueta múltiples archivos PDF en un archivo ZIP."
   },
   "comparePdfs": {
-    "name": "Comparar PDFs",
-    "subtitle": "Compara dos PDFs lado a lado.",
+    "name": "Comparar PDF",
+    "subtitle": "Compara dos PDF lado a lado.",
     "firstPdf": "Primer PDF",
     "secondPdf": "Segundo PDF",
     "clickOrDrop": "Haz clic o suelta",
@@ -756,7 +770,7 @@
     "nextPage": "Página siguiente",
     "prevChange": "Cambio anterior",
     "nextChange": "Cambio siguiente",
-    "uploadTwoPdfs": "Sube dos PDFs para ver las diferencias.",
+    "uploadTwoPdfs": "Sube dos PDF para ver las diferencias.",
     "noDifferences": "No se detectaron diferencias en esta página.",
     "noMatchingChanges": "Ningún cambio coincide con el filtro actual.",
     "pageNotExist": "La página {{page}} no existe en este PDF.",
@@ -779,7 +793,7 @@
     "subtitle": "Divide una página grande en múltiples páginas más pequeñas."
   },
   "fixPageSize": {
-    "name": "Fijar Tamaño de Página",
+    "name": "Fijar tamaño de página",
     "subtitle": "Estandariza todas las páginas a un tamaño uniforme."
   },
   "linearizePdf": {
@@ -787,11 +801,11 @@
     "subtitle": "Optimiza el PDF para visualización web rápida."
   },
   "pageDimensions": {
-    "name": "Dimensiones de Página",
+    "name": "Dimensiones de página",
     "subtitle": "Analiza el tamaño, orientación y unidades de página."
   },
   "removeRestrictions": {
-    "name": "Eliminar Restricciones",
+    "name": "Eliminar restricciones",
     "subtitle": "Elimina la protección por contraseña y las restricciones de seguridad asociadas con archivos PDF firmados digitalmente."
   },
   "repairPdf": {
@@ -799,27 +813,27 @@
     "subtitle": "Recupera datos de archivos PDF corruptos o dañados."
   },
   "encryptPdf": {
-    "name": "Cifrar PDF",
-    "subtitle": "Bloquea tu PDF agregando una contraseña."
+    "name": "Proteger PDF",
+    "subtitle": "Ponle contraseña a tu PDF para que nadie más lo abra."
   },
   "sanitizePdf": {
-    "name": "Sanear PDF",
+    "name": "Limpiar PDF",
     "subtitle": "Elimina metadatos, anotaciones, scripts y más."
   },
   "decryptPdf": {
-    "name": "Descifrar PDF",
-    "subtitle": "Desbloquea PDF eliminando la protección por contraseña."
+    "name": "Desbloquear PDF",
+    "subtitle": "Quita la contraseña de un PDF del que conoces la clave."
   },
   "flattenPdf": {
     "name": "Aplanar PDF",
     "subtitle": "Hace que los campos de formulario y las anotaciones no sean editables."
   },
   "removeMetadata": {
-    "name": "Eliminar Metadatos",
+    "name": "Eliminar metadatos",
     "subtitle": "Elimina datos ocultos de tu PDF."
   },
   "changePermissions": {
-    "name": "Cambiar Permisos",
+    "name": "Cambiar permisos",
     "subtitle": "Establece o cambia los permisos de usuario en un PDF."
   },
   "odtToPdf": {
@@ -844,27 +858,30 @@
     "name": "Word a PDF",
     "subtitle": "Convierte documentos Word (DOCX, DOC, ODT, RTF) a formato PDF. Soporta múltiples archivos.",
     "acceptedFormats": "Archivos DOCX, DOC, ODT, RTF",
-    "convertButton": "Convertir a PDF"
+    "convertButton": "Convertir a PDF",
+    "pageTitle": "Word a PDF gratis: convierte documentos de Word a PDF | Cluzter PDF"
   },
   "excelToPdf": {
     "name": "Excel a PDF",
     "subtitle": "Convierte hojas de cálculo Excel (XLSX, XLS, ODS, CSV) a formato PDF. Soporta múltiples archivos.",
     "acceptedFormats": "Archivos XLSX, XLS, ODS, CSV",
-    "convertButton": "Convertir a PDF"
+    "convertButton": "Convertir a PDF",
+    "pageTitle": "Excel a PDF gratis: convierte hojas de cálculo a PDF | Cluzter PDF"
   },
   "powerpointToPdf": {
     "name": "PowerPoint a PDF",
     "subtitle": "Convierte presentaciones PowerPoint (PPTX, PPT, ODP) a formato PDF. Soporta múltiples archivos.",
     "acceptedFormats": "Archivos PPTX, PPT, ODP",
-    "convertButton": "Convertir a PDF"
+    "convertButton": "Convertir a PDF",
+    "pageTitle": "PowerPoint a PDF gratis: convierte presentaciones a PDF | Cluzter PDF"
   },
   "markdownToPdf": {
     "name": "Markdown a PDF",
     "subtitle": "Escribe o pega Markdown y expórtalo como un PDF bellamente formateado.",
     "paneMarkdown": "Markdown",
-    "panePreview": "Vista Previa",
+    "panePreview": "Vista previa",
     "btnUpload": "Cargar",
-    "btnSyncScroll": "Sincronizar Desplazamiento",
+    "btnSyncScroll": "Sincronizar desplazamiento",
     "btnSettings": "Configuración",
     "btnExportPdf": "Exportar PDF",
     "settingsTitle": "Configuración de Markdown",
@@ -885,12 +902,12 @@
     "step1": "Carga un archivo PDF.",
     "step2": "Las páginas se reorganizarán en orden de folleto.",
     "step3": "Imprime a doble cara, voltea por el borde corto, dobla y engrapa.",
-    "paperSize": "Tamaño de Papel",
+    "paperSize": "Tamaño de papel",
     "orientation": "Orientación",
     "portrait": "Vertical",
     "landscape": "Horizontal",
-    "pagesPerSheet": "Páginas por Hoja",
-    "createBooklet": "Crear Folleto",
+    "pagesPerSheet": "Páginas por hoja",
+    "createBooklet": "Crear folleto",
     "processing": "Procesando...",
     "pageCount": "El recuento de páginas se rellenará a múltiplo de 4 si es necesario."
   },
@@ -989,7 +1006,7 @@
     "subtitle": "Convierte cada página de un archivo PDF en un gráfico vectorial escalable (SVG) para calidad perfecta a cualquier tamaño."
   },
   "extractTables": {
-    "name": "Extraer Tablas de PDF",
+    "name": "Extraer tablas de PDF",
     "subtitle": "Extrae tablas de archivos PDF y exporta como CSV, JSON o Markdown."
   },
   "pdfToCsv": {
@@ -998,35 +1015,36 @@
   },
   "pdfToExcel": {
     "name": "PDF a Excel",
-    "subtitle": "Extrae tablas de PDF y convierte a formato Excel (XLSX)."
+    "subtitle": "Extrae tablas de PDF y convierte a formato Excel (XLSX).",
+    "pageTitle": "PDF a Excel gratis: pasa tablas de PDF a Excel | Cluzter PDF"
   },
   "pdfToText": {
-    "name": "PDF a Texto",
+    "name": "PDF a texto",
     "subtitle": "Extrae texto de archivos PDF y guarda como texto plano (.txt). Soporta múltiples archivos.",
     "noteLabel": "Nota:",
     "noteText": "Esta herramienta funciona SOLO con PDF creados digitalmente. Para documentos escaneados o PDF basados en imágenes, usa nuestra herramienta OCR PDF.",
-    "convertButton": "Extraer Texto",
-    "note": "Esta herramienta funciona SOLO con PDFs creados digitalmente. Para documentos escaneados o PDFs basados en imágenes, usa nuestra herramienta OCR PDF en su lugar."
+    "convertButton": "Extraer texto",
+    "note": "Esta herramienta funciona SOLO con PDF creados digitalmente. Para documentos escaneados o PDF basados en imágenes, usa nuestra herramienta OCR PDF en su lugar."
   },
   "digitalSignPdf": {
-    "name": "Firma Digital PDF",
+    "name": "Firma digital PDF",
     "pageTitle": "Firma Digital PDF - Agregar Firma Criptográfica | Cluzter PDF",
     "subtitle": "Agrega una firma digital criptográfica a tu PDF usando certificados X.509. Soporta formatos PKCS#12 (.pfx, .p12) y PEM. Tu clave privada nunca sale de tu navegador.",
     "certificateSection": "Certificado",
     "uploadCert": "Cargar certificado (.pfx, .p12, .pem)",
-    "certPassword": "Contraseña del Certificado",
+    "certPassword": "Contraseña del certificado",
     "privateKeyPassword": "Contraseña de clave privada",
     "certPasswordPlaceholder": "Ingresa la contraseña del certificado",
-    "certInfo": "Información del Certificado",
+    "certInfo": "Información del certificado",
     "certSubject": "Sujeto",
     "certIssuer": "Emisor",
     "certValidity": "Válido",
-    "signatureDetails": "Detalles de la Firma (Opcional)",
+    "signatureDetails": "Detalles de la firma (opcional)",
     "reason": "Razón",
     "reasonPlaceholder": "ej., Apruebo este documento",
     "location": "Ubicación",
     "locationPlaceholder": "ej., Madrid, España",
-    "contactInfo": "Información de Contacto",
+    "contactInfo": "Información de contacto",
     "contactPlaceholder": "ej., email@ejemplo.com",
     "visibleSignature": "Firma visible",
     "visibleSignatureDescription": "Cuando está habilitado, aparece un cuadro de firma visible en el PDF. Puedes subir una imagen/logo o añadir texto. Si no se proporciona ninguno, se mostrará automáticamente el nombre del firmante del certificado.",
@@ -1089,13 +1107,13 @@
     "faqPrivateKeyAnswer": "¡Sí! Todo el procesamiento ocurre completamente en tu navegador. Tu certificado, clave privada y archivos PDF nunca salen de tu dispositivo ni se suben a ningún servidor.",
     "faqValidReadersQuestion": "¿La firma será válida en los lectores de PDF?",
     "faqValidReadersAnswer": "Sí, la herramienta crea firmas separadas PKCS#7 estándar reconocidas por todos los principales lectores de PDF. Para una validación completa, usa un certificado de una autoridad de certificación de confianza.",
-    "applySignature": "Aplicar Firma Digital",
+    "applySignature": "Aplicar firma digital",
     "successMessage": "¡PDF firmado exitosamente! La firma se puede verificar en cualquier lector de PDF.",
     "internetRequiredTitle": "Se requiere conexión a Internet",
     "internetRequiredDescription": "La firma puede necesitar obtener información de la cadena de certificados del servidor de tu emisor para validar la firma."
   },
   "validateSignaturePdf": {
-    "name": "Validar Firma PDF",
+    "name": "Validar firma PDF",
     "pageTitle": "Validar Firma PDF - Verificar Firmas Digitales | Cluzter PDF",
     "subtitle": "Verifica firmas digitales en tus archivos PDF. Comprueba la validez del certificado, ve los detalles del firmante y confirma la integridad del documento."
   },
@@ -1115,7 +1133,7 @@
     "convertButton": "Convertir a PDF"
   },
   "fontToOutline": {
-    "name": "Fuente a Contorno",
+    "name": "Texto a trazos",
     "subtitle": "Convierte todas las fuentes a contornos vectoriales para una renderización consistente en todos los dispositivos."
   },
   "deskewPdf": {
@@ -1124,7 +1142,8 @@
   },
   "pdfToWord": {
     "name": "PDF a Word",
-    "subtitle": "Convertir archivos PDF a documentos Word editables."
+    "subtitle": "Convertir archivos PDF a documentos Word editables.",
+    "pageTitle": "PDF a Word gratis: convierte PDF a Word editable online | Cluzter PDF"
   },
   "extractImages": {
     "name": "Extraer imágenes",
@@ -1193,8 +1212,8 @@
       }
     },
     "errors": {
-      "noPdfsConnected": "No hay PDFs conectados al nodo {{node}}",
-      "noPdfInputs": "No hay PDFs en la entrada",
+      "noPdfsConnected": "No hay PDF conectados al nodo {{node}}",
+      "noPdfInputs": "No hay PDF en la entrada",
       "expectedPdfInput": "Se esperaba una entrada PDF",
       "failedToRenderPage": "Error al renderizar la página {{page}}",
       "failedToGetCanvasContext": "No se pudo obtener el contexto del canvas para la página {{page}}",
@@ -1226,11 +1245,11 @@
       "noWpsUploaded": "No se subieron archivos WPS en el nodo de entrada WPS",
       "noXmlUploaded": "No se subieron archivos XML en el nodo de entrada XML",
       "noXpsUploaded": "No se subieron archivos XPS en el nodo de entrada XPS",
-      "alternateMergeNeedsTwo": "Alternar y mezclar necesita al menos dos PDFs conectados a su entrada",
+      "alternateMergeNeedsTwo": "Alternar y mezclar necesita al menos dos PDF conectados a su entrada",
       "cropMarginsExceed": "Los márgenes de recorte exceden las dimensiones de la página. Reduce los valores.",
       "digitalSignNoCertificate": "No se cargó ningún certificado en el nodo de firma digital",
       "encryptUserPasswordRequired": "Se requiere contraseña de usuario para el cifrado",
-      "extractImagesNoneFound": "No se encontraron imágenes en los PDFs conectados",
+      "extractImagesNoneFound": "No se encontraron imágenes en los PDF conectados",
       "invertColorsFailedReadImage": "Error al leer los datos de la imagen",
       "overlayRequiresPdf": "El nodo de superposición requiere una entrada PDF de superposición.",
       "pdfToCsvNoTables": "No se encontraron tablas en el PDF",
@@ -1303,7 +1322,7 @@
     "pageRangeHint": "Use \"z\" para la última página. Deje vacío para aplicar a todas las páginas.",
     "repeatLabel": "Repetir páginas de superposición/fondo si el base es más largo",
     "processButton": "Aplicar superposición / fondo",
-    "howItWorksUploadTitle": "Subir dos PDFs",
+    "howItWorksUploadTitle": "Subir dos PDF",
     "howItWorksUploadDescription": "Suba su PDF base y el PDF que desea superponer o colocar como fondo.",
     "howItWorksModeTitle": "Elegir modo",
     "howItWorksModeDescription": "Seleccione superposición (encima) o fondo (detrás). Opcionalmente establezca un rango de páginas y repetición.",
@@ -1317,12 +1336,14 @@
     "faqPrivacyAnswer": "¡Por supuesto! Todo el procesamiento ocurre en su navegador. Sus archivos nunca abandonan su dispositivo, garantizando total privacidad."
   },
   "unlockPdf": {
-    "name": "Descifrar PDF",
-    "subtitle": "Desbloquea PDF eliminando la protección por contraseña."
+    "name": "Desbloquear PDF",
+    "subtitle": "Quita la contraseña de un PDF del que conoces la clave.",
+    "pageTitle": "Desbloquear PDF gratis: quitar contraseña de un PDF | Cluzter PDF"
   },
   "protectPdf": {
-    "name": "Cifrar PDF",
-    "subtitle": "Bloquea tu PDF agregando una contraseña."
+    "name": "Proteger PDF",
+    "subtitle": "Ponle contraseña a tu PDF para que nadie más lo abra.",
+    "pageTitle": "Proteger PDF con contraseña gratis | Cluzter PDF"
   },
   "dniAmbasCaras": {
     "name": "DNI ambas caras en una hoja",
@@ -1411,5 +1432,9 @@
     "faq2r": "Solo si el PDF tiene texto. Si es una foto o un escaneo, primero pásalo por la herramienta OCR para que tenga texto y luego táchalo.",
     "faq3p": "¿Mi documento se sube a internet?",
     "faq3r": "No. Todo se procesa dentro de tu navegador; el archivo nunca sale de tu dispositivo."
+  },
+  "home": {
+    "pageTitle": "Herramientas PDF gratis: unir, comprimir y convertir PDF | Cluzter PDF",
+    "subtitle": "Más de 100 herramientas PDF gratis que funcionan en tu navegador: unir, comprimir, convertir Word y PDF, firmar, OCR y DNI ambas caras en una hoja. Sin registro y sin subir tus archivos."
   }
 }

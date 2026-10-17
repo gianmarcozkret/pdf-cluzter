@@ -4,7 +4,7 @@
     "about": "Acerca de",
     "contact": "Contacto",
     "licensing": "Licencia y código fuente",
-    "allTools": "Todas las Herramientas",
+    "allTools": "Todas las herramientas",
     "docs": "Docs",
     "openMainMenu": "Abrir menú principal",
     "language": "Idioma",
@@ -18,12 +18,12 @@
   },
   "hero": {
     "title": "El",
-    "pdfToolkit": "Kit de Herramientas PDF",
+    "pdfToolkit": "Kit de herramientas PDF",
     "builtForPrivacy": "diseñado para la privacidad",
-    "noSignups": "Sin Registro",
-    "unlimitedUse": "Uso Ilimitado",
-    "worksOffline": "Funciona Sin Conexión",
-    "startUsing": "Comenzar a Usar Ahora"
+    "noSignups": "Sin registro",
+    "unlimitedUse": "Uso ilimitado",
+    "worksOffline": "Funciona sin conexión",
+    "startUsing": "Comenzar a usar ahora"
   },
   "usedBy": {
     "title": "Usado por empresas y personas que trabajan en"
@@ -32,28 +32,28 @@
     "title": "¿Por qué elegir",
     "bentoPdf": "Cluzter PDF?",
     "noSignup": {
-      "title": "Sin Registro",
+      "title": "Sin registro",
       "description": "Comienza al instante, sin cuentas ni correos electrónicos."
     },
     "noUploads": {
-      "title": "Sin Cargas",
+      "title": "Sin cargas",
       "description": "100% del lado del cliente, tus archivos nunca salen de tu dispositivo."
     },
     "foreverFree": {
-      "title": "Gratis para Siempre",
+      "title": "Gratis para siempre",
       "description": "Todas las herramientas, sin pruebas, sin restricciones de pago."
     },
     "noLimits": {
-      "title": "Sin Límites",
+      "title": "Sin límites",
       "description": "Usa tanto como quieras, sin límites ocultos."
     },
     "batchProcessing": {
-      "title": "Procesamiento por Lotes",
-      "description": "Maneja PDFs ilimitados de una sola vez."
+      "title": "Procesamiento por lotes",
+      "description": "Maneja PDF ilimitados de una sola vez."
     },
     "lightningFast": {
       "title": "Ultrarrápido",
-      "description": "Procesa PDFs al instante, sin esperas ni retrasos."
+      "description": "Procesa PDF al instante, sin esperas ni retrasos."
     }
   },
   "tools": {
@@ -61,16 +61,16 @@
     "toolsLabel": "Herramientas",
     "subtitle": "Haz clic en una herramienta para abrir el cargador de archivos",
     "searchPlaceholder": "Buscar una herramienta (ej., 'dividir', 'organizar'...)",
-    "backToTools": "Volver a Herramientas",
+    "backToTools": "Volver a herramientas",
     "firstLoadNotice": "La primera carga toma un momento mientras descargamos nuestro motor de conversión. Después de eso, todas las cargas serán instantáneas."
   },
   "upload": {
     "clickToSelect": "Haz clic para seleccionar un archivo",
     "orDragAndDrop": "o arrastra y suelta",
-    "pdfOrImages": "PDFs o Imágenes",
+    "pdfOrImages": "PDF o imágenes",
     "filesNeverLeave": "Tus archivos nunca salen de tu dispositivo.",
-    "addMore": "Agregar Más Archivos",
-    "clearAll": "Limpiar Todo",
+    "addMore": "Agregar más archivos",
+    "clearAll": "Limpiar todo",
     "clearFiles": "Borrar archivos",
     "hints": {
       "singlePdf": "Un solo archivo PDF",
@@ -86,7 +86,7 @@
       "pdfWithForms": "Archivo PDF con campos de formulario",
       "heicImages": "Imágenes HEIC/HEIF",
       "jpgImages": "Imágenes JPG, JPEG, JP2, JPX",
-      "pdfsOrImages": "PDFs o imágenes",
+      "pdfsOrImages": "PDF o imágenes",
       "oneOrMoreOdt": "Uno o más archivos ODT",
       "singlePdfOnly": "Solo un archivo PDF",
       "pdfFiles": "Archivos PDF",
@@ -119,7 +119,7 @@
     "ok": "OK"
   },
   "preview": {
-    "title": "Vista Previa del Documento",
+    "title": "Vista previa del documento",
     "downloadAsPdf": "Descargar como PDF",
     "close": "Cerrar"
   },
@@ -127,14 +127,14 @@
     "title": "Configuración",
     "shortcuts": "Atajos",
     "preferences": "Preferencias",
-    "displayPreferences": "Preferencias de Visualización",
+    "displayPreferences": "Preferencias de visualización",
     "searchShortcuts": "Buscar atajos...",
     "shortcutsInfo": "Mantén presionadas las teclas para establecer un atajo. Los cambios se guardan automáticamente.",
     "shortcutsWarning": "⚠️ Evita los atajos comunes del navegador (Cmd/Ctrl+W, Cmd/Ctrl+T, Cmd/Ctrl+N, etc.) ya que pueden no funcionar de manera confiable.",
     "import": "Importar",
     "export": "Exportar",
-    "resetToDefaults": "Restaurar Valores Predeterminados",
-    "fullWidthMode": "Modo de Ancho Completo",
+    "resetToDefaults": "Restaurar valores predeterminados",
+    "fullWidthMode": "Modo de ancho completo",
     "fullWidthDescription": "Usa el ancho completo de la pantalla para todas las herramientas en lugar de un contenedor centrado",
     "compactMode": "Modo compacto",
     "compactModeDescription": "Mostrar herramientas como lista compacta en lugar de tarjetas",
@@ -144,18 +144,18 @@
     "clickToSet": "Haz clic para establecer",
     "pressKeys": "Presiona teclas...",
     "warnings": {
-      "alreadyInUse": "Atajo Ya en Uso",
+      "alreadyInUse": "Atajo ya en uso",
       "assignedTo": "ya está asignado a:",
       "chooseDifferent": "Por favor elige un atajo diferente.",
-      "reserved": "Advertencia de Atajo Reservado",
+      "reserved": "Advertencia de atajo reservado",
       "commonlyUsed": "se usa comúnmente para:",
       "unreliable": "Este atajo puede no funcionar de manera confiable o puede entrar en conflicto con el comportamiento del navegador/sistema.",
       "useAnyway": "¿Quieres usarlo de todos modos?",
-      "resetTitle": "Restablecer Atajos",
+      "resetTitle": "Restablecer atajos",
       "resetMessage": "¿Estás seguro de que quieres restablecer todos los atajos a los valores predeterminados?<br><br>Esta acción no se puede deshacer.",
-      "importSuccessTitle": "Importación Exitosa",
+      "importSuccessTitle": "Importación exitosa",
       "importSuccessMessage": "¡Atajos importados exitosamente!",
-      "importFailTitle": "Importación Fallida",
+      "importFailTitle": "Importación fallida",
       "importFailMessage": "Error al importar atajos. Formato de archivo inválido."
     }
   },
@@ -221,25 +221,25 @@
     }
   },
   "testimonials": {
-    "title": "Lo que Nuestros",
+    "title": "Lo que nuestros",
     "users": "Usuarios",
     "say": "Dicen"
   },
   "support": {
     "title": "¿Te Gusta Mi Trabajo?",
     "description": "Cluzter PDF es un proyecto de pasión, creado para proporcionar un kit de herramientas PDF gratuito, privado y potente para todos. Si te resulta útil, considera apoyar su desarrollo. ¡Cada café ayuda!",
-    "buyMeCoffee": "Cómprame un Café"
+    "buyMeCoffee": "Cómprame un café"
   },
   "footer": {
     "copyright": "© 2026 Cluzter",
     "version": "Versión",
     "company": "Cluzter PDF",
-    "aboutUs": "Acerca de Nosotros",
-    "faqLink": "Preguntas Frecuentes",
+    "aboutUs": "Acerca de nosotros",
+    "faqLink": "Preguntas frecuentes",
     "contactUs": "Contáctanos",
     "legal": "Legal",
-    "termsAndConditions": "Términos y Condiciones",
-    "privacyPolicy": "Política de Privacidad",
+    "termsAndConditions": "Términos y condiciones",
+    "privacyPolicy": "Política de privacidad",
     "followUs": "Síguenos",
     "privacyShort": "Privacidad",
     "termsShort": "Términos",
@@ -251,21 +251,21 @@
     "whatsappSales": "Ventas por WhatsApp"
   },
   "merge": {
-    "title": "Fusionar PDFs",
-    "description": "Combina archivos completos o selecciona páginas específicas para fusionar en un nuevo documento.",
-    "fileMode": "Modo Archivo",
-    "pageMode": "Modo Página",
+    "title": "Unir PDF",
+    "description": "Combina archivos completos o selecciona páginas específicas para unir en un nuevo documento.",
+    "fileMode": "Modo archivo",
+    "pageMode": "Modo página",
     "howItWorks": "Cómo funciona:",
     "fileModeInstructions": [
       "Haz clic y arrastra el ícono para cambiar el orden de los archivos.",
-      "En el cuadro \"Páginas\" para cada archivo, puedes especificar rangos (ej., \"1-3, 5\") para fusionar solo esas páginas.",
+      "En el cuadro \"Páginas\" para cada archivo, puedes especificar rangos (ej., \"1-3, 5\") para unir solo esas páginas.",
       "Deja el cuadro \"Páginas\" en blanco para incluir todas las páginas de ese archivo."
     ],
     "pageModeInstructions": [
       "Todas las páginas de tus PDFs cargados se muestran a continuación.",
       "Simplemente arrastra y suelta las miniaturas de páginas individuales para crear el orden exacto que deseas para tu nuevo archivo."
     ],
-    "mergePdfs": "Fusionar PDFs"
+    "mergePdfs": "Unir PDF"
   },
   "common": {
     "page": "Página",
@@ -300,37 +300,37 @@
       "description": "Proporcionar la caja de herramientas PDF más completa que respete tu privacidad y nunca pida pago. Creemos que las herramientas de documentos esenciales deben ser accesibles para todos, en todas partes, sin barreras."
     },
     "philosophy": {
-      "label": "Nuestra Filosofía Central",
+      "label": "Nuestra filosofía central",
       "title": "Privacidad Primero. Siempre.",
       "description": "En una era donde los datos son una mercancía, adoptamos un enfoque diferente. Todo el procesamiento de las herramientas de Cluzter PDF ocurre localmente en tu navegador. Esto significa que tus archivos nunca tocan nuestros servidores, nunca vemos tus documentos y no rastreamos lo que haces. Tus documentos permanecen completa e inequívocamente privados. No es solo una característica; es nuestra base."
     },
     "whyBentopdf": {
       "title": "Por qué",
       "speed": {
-        "title": "Diseñado para la Velocidad",
+        "title": "Diseñado para la velocidad",
         "description": "Sin esperar cargas o descargas a un servidor. Al procesar archivos directamente en tu navegador usando tecnologías web modernas como WebAssembly, ofrecemos una velocidad incomparable para todas nuestras herramientas."
       },
       "free": {
-        "title": "Completamente Gratis",
+        "title": "Completamente gratis",
         "description": "Sin pruebas, sin suscripciones, sin tarifas ocultas y sin funciones \"premium\" retenidas como rehenes. Creemos que las herramientas PDF potentes deben ser una utilidad pública, no un centro de ganancias."
       },
       "noAccount": {
-        "title": "No Requiere Cuenta",
+        "title": "No requiere cuenta",
         "description": "Comienza a usar cualquier herramienta de inmediato. No necesitamos tu correo electrónico, una contraseña o cualquier información personal. Tu flujo de trabajo debe ser sin fricciones y anónimo."
       },
       "openSource": {
-        "title": "Espíritu de Código Abierto",
+        "title": "Espíritu de código abierto",
         "description": "Construido con transparencia en mente. Aprovechamos increíbles bibliotecas de código abierto como PDF-lib y PDF.js, y creemos en el esfuerzo impulsado por la comunidad para hacer que las herramientas potentes sean accesibles para todos."
       }
     },
     "cta": {
       "title": "¿Listo para comenzar?",
       "description": "Únete a miles de usuarios que confían en Cluzter PDF para sus necesidades diarias de documentos. Experimenta la diferencia que la privacidad y el rendimiento pueden hacer.",
-      "button": "Explorar Todas las Herramientas"
+      "button": "Explorar todas las herramientas"
     }
   },
   "contact": {
-    "title": "Ponte en Contacto",
+    "title": "Ponte en contacto",
     "subtitle": "Nos encantaría saber de ti. Ya sea que tengas una pregunta, comentario o solicitud de función, no dudes en comunicarte.",
     "email": "Puedes contactarnos directamente por correo electrónico en:"
   },
@@ -339,16 +339,16 @@
     "subtitle": "Elige la licencia que se ajuste a tus necesidades."
   },
   "multiTool": {
-    "uploadPdfs": "Cargar PDFs",
+    "uploadPdfs": "Cargar PDF",
     "upload": "Cargar",
-    "addBlankPage": "Agregar Página en Blanco",
+    "addBlankPage": "Agregar página en blanco",
     "edit": "Editar:",
     "undo": "Deshacer",
     "redo": "Rehacer",
     "reset": "Restablecer",
     "selection": "Selección:",
-    "selectAll": "Seleccionar Todo",
-    "deselectAll": "Deseleccionar Todo",
+    "selectAll": "Seleccionar todo",
+    "deselectAll": "Deseleccionar todo",
     "rotate": "Rotar:",
     "rotateLeft": "Izquierda",
     "rotateRight": "Derecha",
@@ -358,11 +358,11 @@
     "clear": "Limpiar:",
     "delete": "Eliminar",
     "download": "Descargar:",
-    "downloadSelected": "Descargar Seleccionados",
+    "downloadSelected": "Descargar seleccionados",
     "exportPdf": "Exportar PDF",
     "uploadPdfFiles": "Seleccionar archivos PDF o imágenes",
     "dragAndDrop": "Arrastra y suelta archivos PDF o imágenes aquí, o haz clic para seleccionar",
-    "selectFiles": "Seleccionar Archivos",
+    "selectFiles": "Seleccionar archivos",
     "dropToAdd": "Suelta archivos PDF o imágenes para añadir",
     "convertingImages": "Convirtiendo imágenes a PDF...",
     "failedToConvertImages": "No se pudieron convertir las imágenes a PDF.",
@@ -373,11 +373,11 @@
       "insertPdf": "Insertar PDF después de esta página",
       "toggleSplit": "Alternar división después de esta página"
     },
-    "pleaseWait": "Por Favor Espera",
+    "pleaseWait": "Por favor espera",
     "pagesRendering": "Las páginas aún se están renderizando. Por favor espera...",
-    "noPagesSelected": "No Se Seleccionaron Páginas",
+    "noPagesSelected": "No se seleccionaron páginas",
     "selectOnePage": "Por favor selecciona al menos una página para descargar.",
-    "noPages": "Sin Páginas",
+    "noPages": "Sin páginas",
     "noPagesToExport": "No hay páginas para exportar.",
     "renderingTitle": "Renderizando vistas previas de páginas",
     "errorRendering": "Error al renderizar miniaturas de páginas",
@@ -395,7 +395,7 @@
     "backHome": "Volver al inicio"
   },
   "cluzterCta": {
-    "message": "¿Necesitas automatizar PDFs o validar DNI y RUC desde tu propio sistema?",
+    "message": "¿Necesitas automatizar PDF o validar DNI y RUC desde tu propio sistema?",
     "button": "Conoce la API de Cluzter"
   },
   "cluzterPrivacy": {

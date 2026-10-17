@@ -19,6 +19,7 @@ import {
   injectLanguageSwitcher,
   t,
 } from './i18n/index.js';
+import { activarTextosEspanol } from './i18n/textos.js';
 import {
   loadRuntimeConfig,
   isToolDisabled,
@@ -36,6 +37,7 @@ const init = async () => {
   await loadRuntimeConfig();
   injectLanguageSwitcher();
   applyTranslations();
+  void activarTextosEspanol();
 
   if (isCurrentPageDisabled()) {
     document.title = t('disabledTool.title') || 'Tool Unavailable';
