@@ -3,16 +3,17 @@
     "home": "Inicio",
     "about": "Acerca de",
     "contact": "Contacto",
-    "licensing": "Licencias",
+    "licensing": "Licencia y código fuente",
     "allTools": "Todas las Herramientas",
     "docs": "Docs",
     "openMainMenu": "Abrir menú principal",
     "language": "Idioma",
     "searchLanguage": "Buscar idioma…",
-    "noLanguagesFound": "No se encontraron idiomas"
+    "noLanguagesFound": "No se encontraron idiomas",
+    "cluzterApi": "API Cluzter"
   },
   "donation": {
-    "message": "¿Te encanta BentoPDF? ¡Ayúdanos a mantenerlo gratis y de código abierto!",
+    "message": "¿Te encanta Cluzter PDF? ¡Ayúdanos a mantenerlo gratis y de código abierto!",
     "button": "Donar"
   },
   "hero": {
@@ -29,7 +30,7 @@
   },
   "features": {
     "title": "¿Por qué elegir",
-    "bentoPdf": "BentoPDF?",
+    "bentoPdf": "Cluzter PDF?",
     "noSignup": {
       "title": "Sin Registro",
       "description": "Comienza al instante, sin cuentas ni correos electrónicos."
@@ -187,8 +188,8 @@
     "questions": "Frecuentes",
     "sectionTitle": "Preguntas frecuentes",
     "isFree": {
-      "question": "¿BentoPDF es realmente gratis?",
-      "answer": "Sí, absolutamente. Todas las herramientas en BentoPDF son 100% gratuitas, sin límites de archivos, sin registro y sin marcas de agua. Creemos que todos merecen acceso a herramientas PDF simples y potentes sin un muro de pago."
+      "question": "¿Cluzter PDF es realmente gratis?",
+      "answer": "Sí, absolutamente. Todas las herramientas en Cluzter PDF son 100% gratuitas, sin límites de archivos, sin registro y sin marcas de agua. Creemos que todos merecen acceso a herramientas PDF simples y potentes sin un muro de pago."
     },
     "areFilesSecure": {
       "question": "¿Mis archivos están seguros? ¿Dónde se procesan?",
@@ -196,27 +197,27 @@
     },
     "platforms": {
       "question": "¿Funciona en Mac, Windows y Móvil?",
-      "answer": "¡Sí! Dado que BentoPDF se ejecuta completamente en tu navegador, funciona en cualquier sistema operativo con un navegador web moderno, incluyendo Windows, macOS, Linux, iOS y Android."
+      "answer": "¡Sí! Dado que Cluzter PDF se ejecuta completamente en tu navegador, funciona en cualquier sistema operativo con un navegador web moderno, incluyendo Windows, macOS, Linux, iOS y Android."
     },
     "gdprCompliant": {
-      "question": "¿BentoPDF cumple con GDPR?",
-      "answer": "Sí. BentoPDF cumple completamente con GDPR. Dado que todo el procesamiento de archivos ocurre localmente en tu navegador y nunca recopilamos ni transmitimos tus archivos a ningún servidor, no tenemos acceso a tus datos. Esto garantiza que siempre tengas el control de tus documentos."
+      "question": "¿Qué pasa con mis datos personales?",
+      "answer": "Tus archivos se procesan dentro de tu navegador y nunca llegan a nuestros servidores, así que no recibimos, guardamos ni tratamos los datos personales que contengan (por ejemplo, el DNI de un documento). Tampoco pedimos registro para usar las herramientas."
     },
     "dataStorage": {
       "question": "¿Almacenan o rastrean alguno de mis archivos?",
-      "answer": "No. Nunca almacenamos, rastreamos ni registramos tus archivos. Todo lo que haces en BentoPDF ocurre en la memoria de tu navegador y desaparece una vez que cierras la página. No hay cargas, no hay registros de historial y no hay servidores involucrados."
+      "answer": "No. Nunca almacenamos, rastreamos ni registramos tus archivos. Todo lo que haces en Cluzter PDF ocurre en la memoria de tu navegador y desaparece una vez que cierras la página. No hay cargas, no hay registros de historial y no hay servidores involucrados."
     },
     "different": {
-      "question": "¿Qué hace que BentoPDF sea diferente de otras herramientas PDF?",
-      "answer": "La mayoría de las herramientas PDF cargan tus archivos a un servidor para procesarlos. BentoPDF nunca hace eso. Utilizamos tecnología web moderna y segura para procesar tus archivos directamente en tu navegador. Esto significa un rendimiento más rápido, mayor privacidad y total tranquilidad."
+      "question": "¿Qué hace que Cluzter PDF sea diferente de otras herramientas PDF?",
+      "answer": "La mayoría de las herramientas PDF cargan tus archivos a un servidor para procesarlos. Cluzter PDF nunca hace eso. Utilizamos tecnología web moderna y segura para procesar tus archivos directamente en tu navegador. Esto significa un rendimiento más rápido, mayor privacidad y total tranquilidad."
     },
     "browserBased": {
       "question": "¿Cómo me mantiene seguro el procesamiento basado en navegador?",
-      "answer": "Al ejecutarse completamente dentro de tu navegador, BentoPDF garantiza que tus archivos nunca salgan de tu dispositivo. Esto elimina los riesgos de hackeos de servidores, violaciones de datos o accesos no autorizados. Tus archivos siguen siendo tuyos, siempre."
+      "answer": "Al ejecutarse completamente dentro de tu navegador, Cluzter PDF garantiza que tus archivos nunca salgan de tu dispositivo. Esto elimina los riesgos de hackeos de servidores, violaciones de datos o accesos no autorizados. Tus archivos siguen siendo tuyos, siempre."
     },
     "analytics": {
       "question": "¿Usan cookies o análisis para rastrearme?",
-      "answer": "No. BentoPDF no te rastrea en absoluto. No usamos cookies, analíticas ni scripts de seguimiento, ni siquiera en el sitio web en vivo bentopdf.com. Nunca sabemos quién eres ni qué haces con las herramientas."
+      "answer": "No. Cluzter PDF no te rastrea en absoluto. No usamos cookies, analíticas ni scripts de seguimiento, tampoco en este sitio web. Nunca sabemos quién eres ni qué haces con las herramientas."
     }
   },
   "testimonials": {
@@ -226,13 +227,13 @@
   },
   "support": {
     "title": "¿Te Gusta Mi Trabajo?",
-    "description": "BentoPDF es un proyecto de pasión, creado para proporcionar un kit de herramientas PDF gratuito, privado y potente para todos. Si te resulta útil, considera apoyar su desarrollo. ¡Cada café ayuda!",
+    "description": "Cluzter PDF es un proyecto de pasión, creado para proporcionar un kit de herramientas PDF gratuito, privado y potente para todos. Si te resulta útil, considera apoyar su desarrollo. ¡Cada café ayuda!",
     "buyMeCoffee": "Cómprame un Café"
   },
   "footer": {
-    "copyright": "© 2025 BentoPDF. Todos los derechos reservados.",
+    "copyright": "© 2026 Cluzter",
     "version": "Versión",
-    "company": "Empresa",
+    "company": "Cluzter PDF",
     "aboutUs": "Acerca de Nosotros",
     "faqLink": "Preguntas Frecuentes",
     "contactUs": "Contáctanos",
@@ -241,7 +242,13 @@
     "privacyPolicy": "Política de Privacidad",
     "followUs": "Síguenos",
     "privacyShort": "Privacidad",
-    "termsShort": "Términos"
+    "termsShort": "Términos",
+    "basedOn": "Basado en",
+    "sourceCode": "Código fuente (AGPL-3.0)",
+    "advancedSettings": "Configuración avanzada",
+    "cluzterApi": "API Cluzter: DNI, RUC y vehículos",
+    "cluzterPanel": "Panel de clientes",
+    "whatsappSales": "Ventas por WhatsApp"
   },
   "merge": {
     "title": "Fusionar PDFs",
@@ -295,7 +302,7 @@
     "philosophy": {
       "label": "Nuestra Filosofía Central",
       "title": "Privacidad Primero. Siempre.",
-      "description": "En una era donde los datos son una mercancía, adoptamos un enfoque diferente. Todo el procesamiento de las herramientas de BentoPDF ocurre localmente en tu navegador. Esto significa que tus archivos nunca tocan nuestros servidores, nunca vemos tus documentos y no rastreamos lo que haces. Tus documentos permanecen completa e inequívocamente privados. No es solo una característica; es nuestra base."
+      "description": "En una era donde los datos son una mercancía, adoptamos un enfoque diferente. Todo el procesamiento de las herramientas de Cluzter PDF ocurre localmente en tu navegador. Esto significa que tus archivos nunca tocan nuestros servidores, nunca vemos tus documentos y no rastreamos lo que haces. Tus documentos permanecen completa e inequívocamente privados. No es solo una característica; es nuestra base."
     },
     "whyBentopdf": {
       "title": "Por qué",
@@ -318,7 +325,7 @@
     },
     "cta": {
       "title": "¿Listo para comenzar?",
-      "description": "Únete a miles de usuarios que confían en BentoPDF para sus necesidades diarias de documentos. Experimenta la diferencia que la privacidad y el rendimiento pueden hacer.",
+      "description": "Únete a miles de usuarios que confían en Cluzter PDF para sus necesidades diarias de documentos. Experimenta la diferencia que la privacidad y el rendimiento pueden hacer.",
       "button": "Explorar Todas las Herramientas"
     }
   },
@@ -386,5 +393,23 @@
     "heading": "Esta herramienta ha sido desactivada",
     "message": "Esta herramienta no está disponible en tu instalación. Contacta con tu administrador para obtener más información.",
     "backHome": "Volver al inicio"
+  },
+  "cluzterCta": {
+    "message": "¿Necesitas automatizar PDFs o validar DNI y RUC desde tu propio sistema?",
+    "button": "Conoce la API de Cluzter"
+  },
+  "cluzterPrivacy": {
+    "local": {
+      "title": "Se procesa en tu navegador",
+      "description": "Tus archivos se procesan en tu propio dispositivo. Nunca se suben a nuestros servidores."
+    },
+    "noAccount": {
+      "title": "Sin cuenta ni registro",
+      "description": "Usa todas las herramientas sin registrarte ni dejar tus datos."
+    },
+    "openSource": {
+      "title": "Código abierto",
+      "description": "El código de este sitio es público (AGPL-3.0): cualquiera puede revisarlo."
+    }
   }
 }

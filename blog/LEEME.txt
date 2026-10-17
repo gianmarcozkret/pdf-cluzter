@@ -1,0 +1,1 @@
+Cluzter PDF no publica blog; la carpeta queda vacía porque vite.config.ts la lee.

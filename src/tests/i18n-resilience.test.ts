@@ -49,6 +49,6 @@ describe('i18n resilience on hardened browsers', () => {
   it('changeLanguage does not throw when storage is blocked', async () => {
     blockStorage();
     const { changeLanguage } = await import('../js/i18n/i18n');
-    expect(() => changeLanguage('de')).not.toThrow();
+    expect(() => changeLanguage('es')).not.toThrow();
   });
 });

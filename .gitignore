@@ -54,3 +54,7 @@ test
 # Sibling checkouts of the engine/viewer forks
 bentopdf-pdfium-viewer/
 bentopdf-pymupdf-wasm/
+
+# Cluzter PDF: motores descargados por herramientas/preparar-wasm.sh (no van en git)
+/wasm-local/
+/.wasm-descargas/

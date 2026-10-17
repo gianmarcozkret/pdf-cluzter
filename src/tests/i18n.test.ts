@@ -45,48 +45,48 @@ describe('getLanguageFromUrl', () => {
   });
 
   it('should return language from URL path', () => {
-    window.location.pathname = '/de/about';
-    expect(getLanguageFromUrl()).toBe('de');
+    window.location.pathname = '/es/about';
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should prioritize URL path over localStorage', () => {
-    window.location.pathname = '/fr/';
+    window.location.pathname = '/en/';
     localStorage.setItem('i18nextLng', 'es');
-    expect(getLanguageFromUrl()).toBe('fr');
+    expect(getLanguageFromUrl()).toBe('en');
   });
 
   it('should return language from localStorage if URL has no language', () => {
     window.location.pathname = '/about';
-    localStorage.setItem('i18nextLng', 'it');
-    expect(getLanguageFromUrl()).toBe('it');
+    localStorage.setItem('i18nextLng', 'es');
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should return exact match from navigator.languages', () => {
     window.location.pathname = '/';
     Object.defineProperty(window.navigator, 'languages', {
-      value: ['zh-TW', 'en-US', 'en'],
+      value: ['es', 'en-US', 'en'],
       configurable: true,
     });
-    expect(getLanguageFromUrl()).toBe('zh-TW');
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should return primary language match from navigator.languages', () => {
     window.location.pathname = '/';
-    // 'de-AT' is not in supportedLanguages, but we should match its primary 'de'
+    // 'es-PE' is not in supportedLanguages, but we should match its primary 'es'
     Object.defineProperty(window.navigator, 'languages', {
-      value: ['de-AT', 'en-US', 'en'],
+      value: ['es-PE', 'en-US', 'en'],
       configurable: true,
     });
-    expect(getLanguageFromUrl()).toBe('de');
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should return first matched language from navigator.languages', () => {
     window.location.pathname = '/';
     Object.defineProperty(window.navigator, 'languages', {
-      value: ['fr-CA', 'de-DE', 'en'],
+      value: ['fr-CA', 'es-MX', 'en'],
       configurable: true,
     });
-    expect(getLanguageFromUrl()).toBe('fr');
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should ignore unsupported languages in navigator.languages', () => {
@@ -104,8 +104,8 @@ describe('getLanguageFromUrl', () => {
       value: ['xx'],
       configurable: true,
     }); // unsupported
-    vi.stubEnv('VITE_DEFAULT_LANGUAGE', 'vi');
-    expect(getLanguageFromUrl()).toBe('vi');
+    vi.stubEnv('VITE_DEFAULT_LANGUAGE', 'es');
+    expect(getLanguageFromUrl()).toBe('es');
   });
 
   it('should fallback to en if everything else fails', () => {

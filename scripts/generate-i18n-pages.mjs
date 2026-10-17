@@ -120,15 +120,17 @@ function injectOrganizationLd(document) {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'BentoPDF',
+    name: BRAND_NAME,
     url: SITE_URL,
     logo: `${SITE_URL}/images/favicon.svg`,
-    sameAs: [
-      'https://github.com/alam00000/bentopdf',
-      'https://x.com/BentoPDF',
-      'https://www.linkedin.com/company/bentopdf/',
-      'https://www.instagram.com/thebentopdf/',
-    ],
+    sameAs: process.env.ORG_SAME_AS
+      ? process.env.ORG_SAME_AS.split(',')
+      : [
+          'https://github.com/alam00000/bentopdf',
+          'https://x.com/BentoPDF',
+          'https://www.linkedin.com/company/bentopdf/',
+          'https://www.instagram.com/thebentopdf/',
+        ],
   };
   const script = document.createElement('script');
   script.setAttribute('type', 'application/ld+json');
@@ -267,7 +269,7 @@ function processFileForLanguage(
     title =
       tools[translationKey].pageTitle ||
       (tools[translationKey].name
-        ? `${tools[translationKey].name} - BentoPDF`
+        ? `${tools[translationKey].name} - ${BRAND_NAME}`
         : null);
     description = tools[translationKey].subtitle;
   }

@@ -1,7 +1,7 @@
 {
-    "name": "BentoPDF",
-    "short_name": "BentoPDF",
-    "description": "Free online PDF tools - Privacy-first PDF toolkit that works 100% in your browser",
+    "name": "Cluzter PDF",
+    "short_name": "Cluzter PDF",
+    "description": "Herramientas PDF gratis y privadas: todo se procesa en tu navegador",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#222222",

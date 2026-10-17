@@ -12,7 +12,8 @@ const SITE_URL = (process.env.SITE_URL || 'https://www.bentopdf.com').replace(
   ''
 );
 
-const FALLBACK_SOCIAL_IMAGE = '/images/og-tools.png';
+const FALLBACK_SOCIAL_IMAGE =
+  process.env.SEO_SOCIAL_IMAGE || '/images/og-tools.png';
 
 function listTopLevelHtml() {
   return fs
@@ -113,8 +114,10 @@ function injectWebsiteSchema(document) {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'BentoPDF',
-      alternateName: ['Bento PDF', 'BentoPDF.com'],
+      name: process.env.VITE_BRAND_NAME || 'BentoPDF',
+      alternateName: process.env.VITE_BRAND_NAME
+        ? []
+        : ['Bento PDF', 'BentoPDF.com'],
       url: `${SITE_URL}/`,
     },
     null,

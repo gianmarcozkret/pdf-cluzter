@@ -26,30 +26,8 @@ function engineVersion(): string {
   }
 }
 
-const SUPPORTED_LANGUAGES = [
-  'en',
-  'ar',
-  'be',
-  'da',
-  'ru',
-  'de',
-  'es',
-  'fr',
-  'id',
-  'it',
-  'nl',
-  'pt',
-  'pl',
-  'sv',
-  'tr',
-  'vi',
-  'zh',
-  'zh-TW',
-  'ko',
-  'ja',
-  'uk',
-  'sk',
-] as const;
+// Cluzter PDF: solo español e inglés.
+const SUPPORTED_LANGUAGES = ['en', 'es'] as const;
 const LANG_REGEX = new RegExp(
   `^/(${SUPPORTED_LANGUAGES.join('|')})(?:/(.*))?$`
 );
@@ -74,8 +52,6 @@ function loadPages(): Set<string> {
     'privacy',
     'terms',
     'licensing',
-    'kura',
-    'hyper-compress',
     'tools',
     '404',
     'pdf-converter',
@@ -648,8 +624,6 @@ export default defineConfig(() => {
           privacy: resolve(__dirname, 'privacy.html'),
           terms: resolve(__dirname, 'terms.html'),
           licensing: resolve(__dirname, 'licensing.html'),
-          kura: resolve(__dirname, 'kura.html'),
-          'hyper-compress': resolve(__dirname, 'hyper-compress.html'),
           tools: resolve(__dirname, 'tools.html'),
           ...Object.fromEntries(
             fs
