@@ -248,7 +248,8 @@
     "advancedSettings": "Advanced settings",
     "cluzterApi": "Cluzter API: DNI, RUC and vehicles",
     "cluzterPanel": "Customer panel",
-    "whatsappSales": "WhatsApp sales"
+    "whatsappSales": "WhatsApp sales",
+    "apiPdf": "PDF API for developers"
   },
   "merge": {
     "title": "Merge PDFs",
